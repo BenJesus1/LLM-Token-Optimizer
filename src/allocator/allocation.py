@@ -18,5 +18,5 @@ class Allocation:
         return sum(task.token_cost for task in self.selected)
 
     @property
-    def total_value(self) -> int:
+    def total_value(self) -> float:
         return sum(task.value for task in self.selected)

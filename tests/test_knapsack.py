@@ -24,11 +24,11 @@ def test_hand_computed_five_task_instance() -> None:
     #   draft + translate      = cost 10, value 12
     # No four-task subset fits (minimum four-task cost is 4+3+2+5 = 14).
     # Optimal value is 13, uniquely from {review, cite, polish}.
-    draft = Task(id="draft", token_cost=4, value=5)
-    review = Task(id="review", token_cost=3, value=4)
-    cite = Task(id="cite", token_cost=2, value=3)
-    polish = Task(id="polish", token_cost=5, value=6)
-    translate = Task(id="translate", token_cost=6, value=7)
+    draft = Task.constant(id="draft", token_cost=4, value=5)
+    review = Task.constant(id="review", token_cost=3, value=4)
+    cite = Task.constant(id="cite", token_cost=2, value=3)
+    polish = Task.constant(id="polish", token_cost=5, value=6)
+    translate = Task.constant(id="translate", token_cost=6, value=7)
 
     allocation = knapsack_dp(
         [draft, review, cite, polish, translate],
@@ -42,8 +42,8 @@ def test_hand_computed_five_task_instance() -> None:
 
 def test_zero_budget_selects_nothing_when_every_task_costs_tokens() -> None:
     tasks = [
-        Task(id="a", token_cost=1, value=5),
-        Task(id="b", token_cost=2, value=9),
+        Task.constant(id="a", token_cost=1, value=5),
+        Task.constant(id="b", token_cost=2, value=9),
     ]
 
     allocation = knapsack_dp(tasks, budget=0)
@@ -53,8 +53,8 @@ def test_zero_budget_selects_nothing_when_every_task_costs_tokens() -> None:
 
 
 def test_zero_cost_positive_value_task_is_taken_even_at_zero_budget() -> None:
-    free = Task(id="free", token_cost=0, value=4)
-    paid = Task(id="paid", token_cost=3, value=10)
+    free = Task.constant(id="free", token_cost=0, value=4)
+    paid = Task.constant(id="paid", token_cost=3, value=10)
 
     allocation = knapsack_dp([free, paid], budget=0)
 
@@ -63,7 +63,7 @@ def test_zero_cost_positive_value_task_is_taken_even_at_zero_budget() -> None:
 
 
 def test_single_task_over_budget_is_skipped() -> None:
-    heavy = Task(id="heavy", token_cost=8, value=20)
+    heavy = Task.constant(id="heavy", token_cost=8, value=20)
 
     allocation = knapsack_dp([heavy], budget=5)
 
@@ -73,8 +73,8 @@ def test_single_task_over_budget_is_skipped() -> None:
 
 def test_all_tasks_fit_when_budget_covers_their_cost() -> None:
     tasks = [
-        Task(id="a", token_cost=2, value=3),
-        Task(id="b", token_cost=3, value=4),
+        Task.constant(id="a", token_cost=2, value=3),
+        Task.constant(id="b", token_cost=3, value=4),
     ]
 
     allocation = knapsack_dp(tasks, budget=10)
@@ -92,8 +92,8 @@ def test_empty_task_list_returns_empty_allocation() -> None:
 
 
 def test_zero_value_task_is_not_selected() -> None:
-    useful = Task(id="useful", token_cost=2, value=5)
-    filler = Task(id="filler", token_cost=1, value=0)
+    useful = Task.constant(id="useful", token_cost=2, value=5)
+    filler = Task.constant(id="filler", token_cost=1, value=0)
 
     allocation = knapsack_dp([useful, filler], budget=3)
 
@@ -103,4 +103,4 @@ def test_zero_value_task_is_not_selected() -> None:
 
 def test_negative_budget_is_rejected() -> None:
     with pytest.raises(ValueError, match="budget"):
-        knapsack_dp([Task(id="a", token_cost=1, value=1)], budget=-1)
+        knapsack_dp([Task.constant(id="a", token_cost=1, value=1)], budget=-1)

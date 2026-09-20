@@ -22,10 +22,10 @@ SOLVERS = pytest.mark.parametrize(
 
 def _four_tasks() -> tuple[Task, Task, Task, Task]:
     return (
-        Task(id="a", token_cost=2, value=3),
-        Task(id="b", token_cost=3, value=4),
-        Task(id="c", token_cost=4, value=5),
-        Task(id="d", token_cost=5, value=6),
+        Task.constant(id="a", token_cost=2, value=3),
+        Task.constant(id="b", token_cost=3, value=4),
+        Task.constant(id="c", token_cost=4, value=5),
+        Task.constant(id="d", token_cost=5, value=6),
     )
 
 
@@ -69,11 +69,11 @@ def test_hand_computed_five_task_both_solvers() -> None:
     #   draft+translate    = cost 10, value 12
     # Greedy density order cite, review, draft, polish, translate fills
     # cite+review+draft (cost 9, value 12) and then cannot fit polish.
-    draft = Task(id="draft", token_cost=4, value=5)
-    review = Task(id="review", token_cost=3, value=4)
-    cite = Task(id="cite", token_cost=2, value=3)
-    polish = Task(id="polish", token_cost=5, value=6)
-    translate = Task(id="translate", token_cost=6, value=7)
+    draft = Task.constant(id="draft", token_cost=4, value=5)
+    review = Task.constant(id="review", token_cost=3, value=4)
+    cite = Task.constant(id="cite", token_cost=2, value=3)
+    polish = Task.constant(id="polish", token_cost=5, value=6)
+    translate = Task.constant(id="translate", token_cost=6, value=7)
     tasks = [draft, review, cite, polish, translate]
 
     exact = knapsack_dp(tasks, budget=10)
@@ -91,8 +91,8 @@ def test_hand_computed_five_task_both_solvers() -> None:
 @SOLVERS
 def test_zero_budget_selects_nothing_when_every_task_costs_tokens(solve: Solver) -> None:
     tasks = [
-        Task(id="a", token_cost=1, value=5),
-        Task(id="b", token_cost=2, value=9),
+        Task.constant(id="a", token_cost=1, value=5),
+        Task.constant(id="b", token_cost=2, value=9),
     ]
 
     allocation = solve(tasks, 0)
@@ -106,9 +106,9 @@ def test_one_task_over_budget_is_skipped_and_the_rest_can_still_be_taken(solve: 
     # heavy costs 10 > budget 5, so it cannot appear.
     # light+mid = cost 5, value 7 — the only feasible pair, so both solvers
     # must return that set (greedy skips heavy first, then takes light, mid).
-    heavy = Task(id="heavy", token_cost=10, value=50)
-    light = Task(id="light", token_cost=2, value=3)
-    mid = Task(id="mid", token_cost=3, value=4)
+    heavy = Task.constant(id="heavy", token_cost=10, value=50)
+    light = Task.constant(id="light", token_cost=2, value=3)
+    mid = Task.constant(id="mid", token_cost=3, value=4)
 
     allocation = solve([heavy, light, mid], 5)
 
@@ -122,8 +122,8 @@ def test_tied_values_only_one_fits(solve: Solver) -> None:
     # a and b have the same value 8 and the same cost 4. Budget 4, so exactly
     # one can be chosen; either is optimal. DP skip-on-tie keeps a (already
     # in the table). Greedy ranks them equal and stable-sorts, so also a.
-    a = Task(id="a", token_cost=4, value=8)
-    b = Task(id="b", token_cost=4, value=8)
+    a = Task.constant(id="a", token_cost=4, value=8)
+    b = Task.constant(id="b", token_cost=4, value=8)
 
     allocation = solve([a, b], 4)
 
@@ -135,8 +135,8 @@ def test_tied_values_only_one_fits(solve: Solver) -> None:
 def test_tied_values_both_fit(solve: Solver) -> None:
     # a and b are identical (cost 2, value 5). Budget 4 fits both; taking
     # both is uniquely optimal (value 10 vs 5).
-    a = Task(id="a", token_cost=2, value=5)
-    b = Task(id="b", token_cost=2, value=5)
+    a = Task.constant(id="a", token_cost=2, value=5)
+    b = Task.constant(id="b", token_cost=2, value=5)
 
     allocation = solve([a, b], 4)
 
@@ -147,9 +147,9 @@ def test_tied_values_both_fit(solve: Solver) -> None:
 @SOLVERS
 def test_every_task_individually_over_budget(solve: Solver) -> None:
     tasks = [
-        Task(id="a", token_cost=5, value=10),
-        Task(id="b", token_cost=6, value=12),
-        Task(id="c", token_cost=7, value=20),
+        Task.constant(id="a", token_cost=5, value=10),
+        Task.constant(id="b", token_cost=6, value=12),
+        Task.constant(id="c", token_cost=7, value=20),
     ]
 
     allocation = solve(tasks, 4)

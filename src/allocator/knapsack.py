@@ -21,7 +21,7 @@ def knapsack_dp(tasks: Sequence[Task], budget: int) -> Allocation:
     n = len(tasks)
     # dp[i][w] = max value from a subset of tasks[:i] with total cost <= w.
     # tasks[:i] means the first i tasks (tasks[0] .. tasks[i-1]).
-    dp: list[list[int]] = [[0] * (budget + 1) for _ in range(n + 1)]
+    dp: list[list[float]] = [[0.0] * (budget + 1) for _ in range(n + 1)]
 
     for i, task in enumerate(tasks, start=1):
         cost = task.token_cost

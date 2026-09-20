@@ -4,5 +4,13 @@ from .allocation import Allocation
 from .greedy import knapsack_greedy
 from .knapsack import knapsack_dp
 from .task import Task
+from .value import CURVES, evaluate_curve
 
-__all__ = ["Allocation", "Task", "knapsack_dp", "knapsack_greedy"]
+__all__ = [
+    "Allocation",
+    "CURVES",
+    "Task",
+    "evaluate_curve",
+    "knapsack_dp",
+    "knapsack_greedy",
+]
