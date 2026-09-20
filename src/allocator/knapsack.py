@@ -4,7 +4,7 @@ from __future__ import annotations
 
 from collections.abc import Sequence
 
-from .allocation import Allocation
+from .allocation import Allocation, allocation_from_tasks
 from .task import Task
 
 
@@ -60,4 +60,4 @@ def knapsack_dp(tasks: Sequence[Task], budget: int) -> Allocation:
             remaining -= task.token_cost
 
     selected.reverse()
-    return Allocation(selected=tuple(selected))
+    return allocation_from_tasks(tuple(selected))

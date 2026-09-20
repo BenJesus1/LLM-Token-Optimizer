@@ -4,7 +4,7 @@ from __future__ import annotations
 
 from collections.abc import Sequence
 
-from .allocation import Allocation
+from .allocation import Allocation, allocation_from_tasks
 from .task import Task
 
 
@@ -45,4 +45,4 @@ def knapsack_greedy(tasks: Sequence[Task], budget: int) -> Allocation:
             remaining -= task.token_cost
 
     chosen_indexes.sort()
-    return Allocation(selected=tuple(tasks[i] for i in chosen_indexes))
+    return allocation_from_tasks(tuple(tasks[i] for i in chosen_indexes))

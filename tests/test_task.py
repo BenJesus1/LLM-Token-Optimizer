@@ -28,7 +28,8 @@ def test_constant_constructor_uses_fixed_value() -> None:
     assert task.curve == "constant"
     assert task.weight == 9
     assert task.value == 9
-    assert task.value_at(1) == 9
+    assert task.value_at(1) == 0
+    assert task.value_at(5) == 9
     assert task.value_at(100) == 9
 
 

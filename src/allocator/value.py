@@ -21,9 +21,13 @@ def sqrt_curve(tokens: int, weight: float) -> float:
 
 
 def constant_curve(tokens: int, weight: float) -> float:
-    """Fixed value, independent of tokens. Used by the 0/1 knapsack phase."""
+    """Placeholder for the named ``constant`` curve.
 
-    return float(weight)
+    Task.value_at applies the 0/1 step using token_cost; this function is only
+    used if evaluate_curve is called directly.
+    """
+
+    return float(weight) if tokens > 0 else 0.0
 
 
 CURVES: dict[str, ValueFn] = {
