@@ -32,6 +32,80 @@ def test_hand_computed_split_beats_dumping_on_one_task() -> None:
     assert allocation.total_value > math.log(4)
 
 
+def test_hand_computed_three_task_weighted_log_instance() -> None:
+    # a: cap 2, weight 2, log  →  value_a(t) = 2 log(1+t)
+    # b: cap 2, weight 1, log  →  value_b(t) = log(1+t)
+    # c: cap 2, weight 1, log  →  value_c(t) = log(1+t)
+    # budget = 3
+    #
+    # Closed forms used below:
+    #   2 log 2 ≈ 1.3863    log 2 ≈ 0.6931
+    #   2 log 3 ≈ 2.1972    log 3 ≈ 1.0986
+    #
+    # Feasible assignments with the highest totals (each coord 0..2, sum ≤ 3):
+    #   (2, 1, 0) = 2 log 3 + log 2 ≈ 2.8903
+    #   (2, 0, 1) = 2 log 3 + log 2 ≈ 2.8903
+    #   (1, 1, 1) = 2 log 2 + log 2 + log 2 ≈ 2.7726
+    #   (1, 2, 0) = 2 log 2 + log 3         ≈ 2.4849
+    # Dumping on a, (2, 0, 0) = 2 log 3 ≈ 2.1972, is strictly worse.
+    #
+    # DP table (rows = after task i, columns = budget w = 0..3).
+    # Ties keep the smaller t.
+    #
+    # after a:  dp = [0, 1.3863, 2.1972, 2.1972]   choice t = [0, 1, 2, 2]
+    # after b, w=3:
+    #   t=0 → 2.1972
+    #   t=1 → 2.1972 + 0.6931 = 2.8903
+    #   t=2 → 1.3863 + 1.0986 = 2.4849   → choose t=1
+    # after c, w=3:
+    #   t=0 → 2.8903
+    #   t=1 → 2.1972 + 0.6931 = 2.8903 (tie, keep t=0)
+    #   t=2 → 1.3863 + 1.0986 = 2.4849   → choose t=0
+    #
+    # Reconstruct: c=0, remaining 3; b=1, remaining 2; a=2.
+    a = Task(id="a", token_cost=2, weight=2.0, curve="log")
+    b = Task(id="b", token_cost=2, weight=1.0, curve="log")
+    c = Task(id="c", token_cost=2, weight=1.0, curve="log")
+
+    allocation = allocate_dp([a, b, c], budget=3)
+
+    assert allocation.tokens_for("a") == 2
+    assert allocation.tokens_for("b") == 1
+    assert allocation.tokens_for("c") == 0
+    assert allocation.total_cost == 3
+    assert allocation.total_value == pytest.approx(2 * math.log(3) + math.log(2))
+
+
+def test_hand_computed_three_task_value_is_optimal_among_all_assignments() -> None:
+    # Same instance as test_hand_computed_three_task_weighted_log_instance.
+    # Enumerate every cap-respecting assignment so a slip in the table above
+    # cannot sneak through: the DP value must equal the exhaustive max.
+    tasks = [
+        Task(id="a", token_cost=2, weight=2.0, curve="log"),
+        Task(id="b", token_cost=2, weight=1.0, curve="log"),
+        Task(id="c", token_cost=2, weight=1.0, curve="log"),
+    ]
+    budget = 3
+    best = 0.0
+    for ta in range(3):
+        for tb in range(3):
+            for tc in range(3):
+                if ta + tb + tc > budget:
+                    continue
+                value = (
+                    tasks[0].value_at(ta)
+                    + tasks[1].value_at(tb)
+                    + tasks[2].value_at(tc)
+                )
+                if value > best:
+                    best = value
+
+    allocation = allocate_dp(tasks, budget)
+
+    assert allocation.total_value == pytest.approx(best)
+    assert best == pytest.approx(2 * math.log(3) + math.log(2))
+
+
 def test_caps_prevent_one_task_from_taking_the_whole_budget() -> None:
     a = Task(id="a", token_cost=1, weight=1.0, curve="log")
     b = Task(id="b", token_cost=1, weight=1.0, curve="log")
