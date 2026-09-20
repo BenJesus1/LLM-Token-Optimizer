@@ -14,6 +14,8 @@ from .tasks_io import load_tasks
 
 
 def build_parser() -> argparse.ArgumentParser:
+    """Build the ``allocator run --budget --tasks`` parser."""
+
     parser = argparse.ArgumentParser(
         prog="allocator",
         description="Allocate a token budget across competing LLM tasks.",
@@ -26,6 +28,7 @@ def build_parser() -> argparse.ArgumentParser:
 
 
 def _print_allocation(allocation: Allocation) -> None:
+    """Write each chosen task id and token count."""
     print("Allocation (DP):")
     if not allocation.assignments:
         print("  (none)")
@@ -35,6 +38,7 @@ def _print_allocation(allocation: Allocation) -> None:
 
 
 def _print_summary(dp: Allocation, greedy: Allocation, runtime_s: float) -> None:
+    """Write DP value, wall time, and the token-level greedy comparison."""
     print(f"Total value (DP): {dp.total_value:.4f}")
     print(f"Runtime (DP): {runtime_s:.4f}s")
     delta = dp.total_value - greedy.total_value
@@ -49,6 +53,7 @@ def _print_summary(dp: Allocation, greedy: Allocation, runtime_s: float) -> None
 
 
 def run(argv: Sequence[str] | None = None) -> int:
+    """Solve one instance and print DP vs token-level greedy. Returns an exit code."""
     parser = build_parser()
     args = parser.parse_args(argv)
     if args.command != "run":
@@ -64,6 +69,8 @@ def run(argv: Sequence[str] | None = None) -> int:
 
 
 def main(argv: Sequence[str] | None = None) -> int:
+    """Console-script entry point used by ``allocator``."""
+
     return run(argv)
 
 

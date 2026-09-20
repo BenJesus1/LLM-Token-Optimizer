@@ -13,6 +13,7 @@ _REQUIRED = ("id", "token_cost", "weight")
 
 
 def _task_from_row(row: Mapping[str, object]) -> Task:
+    """Build a Task from one JSON object or CSV row."""
     missing = [key for key in _REQUIRED if key not in row]
     if missing:
         raise ValueError(f"task is missing fields: {', '.join(missing)}")
