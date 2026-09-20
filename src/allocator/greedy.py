@@ -4,7 +4,7 @@ from __future__ import annotations
 
 from collections.abc import Sequence
 
-from .allocation import Allocation, allocation_from_tasks
+from .allocation import Allocation, allocation_from_counts, allocation_from_tasks
 from .task import Task
 
 
@@ -46,3 +46,55 @@ def knapsack_greedy(tasks: Sequence[Task], budget: int) -> Allocation:
 
     chosen_indexes.sort()
     return allocation_from_tasks(tuple(tasks[i] for i in chosen_indexes))
+
+
+def _greedy_step(task: Task, current: int, remaining: int) -> tuple[float, int]:
+    """Density and token delta of the best greedy increment for ``task``.
+
+    Diminishing curves take one token. Constant (0/1 step) curves jump to the
+    cap in one shot, because unit steps in between have zero gain.
+    """
+
+    if remaining <= 0 or current >= task.token_cost:
+        return (-1.0, 0)
+    if task.curve == "constant":
+        need = task.token_cost - current
+        if need <= remaining and need > 0:
+            gain = task.value_at(current + need) - task.value_at(current)
+            if gain > 0:
+                return (gain / need, need)
+        return (-1.0, 0)
+    gain = task.value_at(current + 1) - task.value_at(current)
+    if gain > 0:
+        return (gain, 1)
+    return (-1.0, 0)
+
+
+def allocate_greedy(tasks: Sequence[Task], budget: int) -> Allocation:
+    """Spend tokens on the highest-density increment until the budget is gone.
+
+    This is the token-level baseline for ``allocate_dp``. It is not the 0/1
+    ``knapsack_greedy`` solver. Time is O(n * budget).
+    """
+
+    if budget < 0:
+        raise ValueError("budget must be a non-negative integer")
+
+    counts = [0] * len(tasks)
+    remaining = budget
+    while remaining > 0:
+        best_i = -1
+        best_density = 0.0
+        best_dt = 0
+        for i, task in enumerate(tasks):
+            density, dt = _greedy_step(task, counts[i], remaining)
+            if dt > 0 and density > best_density:
+                best_density = density
+                best_dt = dt
+                best_i = i
+        if best_i < 0:
+            break
+        counts[best_i] += best_dt
+        remaining -= best_dt
+
+    return allocation_from_counts(tasks, counts)

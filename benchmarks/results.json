@@ -1,0 +1,91 @@
+{
+  "seed": 2026,
+  "solvers": [
+    "dp",
+    "greedy",
+    "random"
+  ],
+  "rows": [
+    {
+      "n": 10,
+      "budget": 21,
+      "seed": 2036,
+      "solver": "dp",
+      "runtime_s": 0.0010008000026573427,
+      "total_value": 29.951623047494078,
+      "total_cost": 21
+    },
+    {
+      "n": 10,
+      "budget": 21,
+      "seed": 2036,
+      "solver": "greedy",
+      "runtime_s": 7.210000330815092e-05,
+      "total_value": 29.486531193837195,
+      "total_cost": 21
+    },
+    {
+      "n": 10,
+      "budget": 21,
+      "seed": 2036,
+      "solver": "random",
+      "runtime_s": 2.7999994927085936e-05,
+      "total_value": 19.800168513833196,
+      "total_cost": 21
+    },
+    {
+      "n": 100,
+      "budget": 244,
+      "seed": 2126,
+      "solver": "dp",
+      "runtime_s": 0.031197699994663708,
+      "total_value": 342.353330051613,
+      "total_cost": 244
+    },
+    {
+      "n": 100,
+      "budget": 244,
+      "seed": 2126,
+      "solver": "greedy",
+      "runtime_s": 0.0055008999988785945,
+      "total_value": 342.353330051613,
+      "total_cost": 244
+    },
+    {
+      "n": 100,
+      "budget": 244,
+      "seed": 2126,
+      "solver": "random",
+      "runtime_s": 0.0006595999948331155,
+      "total_value": 245.23634037518755,
+      "total_cost": 244
+    },
+    {
+      "n": 1000,
+      "budget": 2716,
+      "seed": 3026,
+      "solver": "dp",
+      "runtime_s": 3.907507899995835,
+      "total_value": 3678.743043120894,
+      "total_cost": 2716
+    },
+    {
+      "n": 1000,
+      "budget": 2716,
+      "seed": 3026,
+      "solver": "greedy",
+      "runtime_s": 0.6589905000000726,
+      "total_value": 3678.743043120894,
+      "total_cost": 2716
+    },
+    {
+      "n": 1000,
+      "budget": 2716,
+      "seed": 3026,
+      "solver": "random",
+      "runtime_s": 0.062121200004185084,
+      "total_value": 2575.707487140484,
+      "total_cost": 2716
+    }
+  ]
+}

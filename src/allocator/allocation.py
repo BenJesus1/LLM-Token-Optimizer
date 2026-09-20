@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+from collections.abc import Sequence
 from dataclasses import dataclass
 
 from .task import Task
@@ -53,4 +54,16 @@ def allocation_from_tasks(tasks: tuple[Task, ...]) -> Allocation:
 
     return Allocation(
         assignments=tuple(Assignment(task=task, tokens=task.token_cost) for task in tasks)
+    )
+
+
+def allocation_from_counts(tasks: Sequence[Task], counts: Sequence[int]) -> Allocation:
+    """Variable-token result from a per-task token vector (input order)."""
+
+    return Allocation(
+        assignments=tuple(
+            Assignment(task=task, tokens=n)
+            for task, n in zip(tasks, counts, strict=True)
+            if n > 0
+        )
     )
