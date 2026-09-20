@@ -62,10 +62,47 @@ def plot_runtime(payload: dict[str, Any], path: Path = RUNTIME_CHART) -> Path:
     return path
 
 
+def plot_value_gap(payload: dict[str, Any], path: Path = VALUE_GAP_CHART) -> Path:
+    """Value shortfall vs DP as a percent of DP value, by task count."""
+
+    grouped = _rows_by_solver(payload)
+    dp_by_n = {row["n"]: row["total_value"] for row in grouped["dp"]}
+    path.parent.mkdir(parents=True, exist_ok=True)
+    fig, ax = plt.subplots(figsize=(7.5, 4.5))
+    for name in ("greedy", "random"):
+        ns: list[int] = []
+        gaps: list[float] = []
+        for row in grouped[name]:
+            dp_value = dp_by_n[row["n"]]
+            gap = 0.0 if dp_value == 0 else 100.0 * (dp_value - row["total_value"]) / dp_value
+            ns.append(row["n"])
+            gaps.append(gap)
+        ax.plot(ns, gaps, marker="o", label=f"{SOLVER_LABELS[name]} shortfall")
+    ax.set_xscale("log")
+    ax.set_title("Value-quality gap vs DP")
+    ax.set_xlabel("Task count (log scale)")
+    ax.set_ylabel("Shortfall vs DP (%)")
+    ax.legend()
+    ax.grid(True, which="both", linestyle="--", linewidth=0.5)
+    fig.text(
+        0.01,
+        0.01,
+        f"Source: benchmarks/results.json · seed {payload['seed']} · (DP − solver) / DP",
+        fontsize=8,
+        color="dimgray",
+    )
+    fig.tight_layout()
+    fig.savefig(path, dpi=150)
+    plt.close(fig)
+    return path
+
+
 def main() -> None:
     payload = load_results(RESULTS_PATH)
-    saved = plot_runtime(payload)
-    print(f"wrote {saved}")
+    runtime = plot_runtime(payload)
+    gap = plot_value_gap(payload)
+    print(f"wrote {runtime}")
+    print(f"wrote {gap}")
 
 
 if __name__ == "__main__":
