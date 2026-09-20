@@ -34,7 +34,12 @@ def load_tasks(path: Path) -> tuple[Task, ...]:
         raw = json.loads(path.read_text(encoding="utf-8"))
         if not isinstance(raw, list):
             raise ValueError("JSON task file must be a list of objects")
-        return tuple(_task_from_row(item) for item in raw)
+        tasks: list[Task] = []
+        for item in raw:
+            if not isinstance(item, Mapping):
+                raise ValueError("each JSON task must be an object")
+            tasks.append(_task_from_row(item))
+        return tuple(tasks)
     if suffix == ".csv":
         with path.open(encoding="utf-8", newline="") as handle:
             rows = list(csv.DictReader(handle))

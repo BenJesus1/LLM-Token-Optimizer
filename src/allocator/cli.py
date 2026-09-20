@@ -3,6 +3,8 @@
 from __future__ import annotations
 
 import argparse
+import json
+import sys
 import time
 from collections.abc import Sequence
 from pathlib import Path
@@ -54,15 +56,28 @@ def _print_summary(dp: Allocation, greedy: Allocation, runtime_s: float) -> None
 
 def run(argv: Sequence[str] | None = None) -> int:
     """Solve one instance and print DP vs token-level greedy. Returns an exit code."""
+
     parser = build_parser()
     args = parser.parse_args(argv)
     if args.command != "run":
         parser.error(f"unknown command {args.command}")
-    tasks = load_tasks(args.tasks)
-    started = time.perf_counter()
-    dp = allocate_dp(tasks, args.budget)
-    runtime_s = time.perf_counter() - started
-    greedy = allocate_greedy(tasks, args.budget)
+    try:
+        tasks = load_tasks(args.tasks)
+        if not tasks:
+            raise ValueError("task list is empty")
+        started = time.perf_counter()
+        dp = allocate_dp(tasks, args.budget)
+        runtime_s = time.perf_counter() - started
+        greedy = allocate_greedy(tasks, args.budget)
+    except FileNotFoundError as exc:
+        print(f"error: task file not found: {exc.filename}", file=sys.stderr)
+        return 1
+    except json.JSONDecodeError as exc:
+        print(f"error: invalid JSON: {exc.msg}", file=sys.stderr)
+        return 1
+    except ValueError as exc:
+        print(f"error: {exc}", file=sys.stderr)
+        return 1
     _print_allocation(dp)
     _print_summary(dp, greedy, runtime_s)
     return 0
