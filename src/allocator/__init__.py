@@ -2,6 +2,7 @@
 
 from .allocate import allocate_dp
 from .allocation import Allocation, Assignment
+from .cli import main
 from .greedy import allocate_greedy, knapsack_greedy
 from .knapsack import knapsack_dp
 from .random_alloc import allocate_random
@@ -19,4 +20,5 @@ __all__ = [
     "evaluate_curve",
     "knapsack_dp",
     "knapsack_greedy",
+    "main",
 ]

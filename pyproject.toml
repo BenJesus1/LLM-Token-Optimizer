@@ -18,6 +18,9 @@ dependencies = [
 [tool.setuptools.packages.find]
 where = ["src"]
 
+[project.scripts]
+allocator = "allocator.cli:main"
+
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 pythonpath = ["src", "."]
