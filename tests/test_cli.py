@@ -20,4 +20,9 @@ def test_run_prints_dp_allocation(tmp_path: Path, capsys: pytest.CaptureFixture[
     assert code == 0
     assert "Allocation (DP):" in captured.out
     assert "a" in captured.out
+    assert "Total value (DP):" in captured.out
+    assert "Runtime (DP):" in captured.out
+    assert "Greedy:" in captured.out
+    assert "token-level greedy" in captured.out
+    assert "knapsack_greedy" not in captured.out
     assert captured.err == ""
