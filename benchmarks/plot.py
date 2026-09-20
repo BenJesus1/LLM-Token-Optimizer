@@ -97,10 +97,21 @@ def plot_value_gap(payload: dict[str, Any], path: Path = VALUE_GAP_CHART) -> Pat
     return path
 
 
+def save_charts(
+    payload: dict[str, Any] | None = None,
+    *,
+    directory: Path = CHARTS_DIR,
+) -> tuple[Path, Path]:
+    """Write both labeled charts into ``directory`` (the repo copy lives here)."""
+
+    data = payload if payload is not None else load_results(RESULTS_PATH)
+    runtime = plot_runtime(data, path=directory / RUNTIME_CHART.name)
+    gap = plot_value_gap(data, path=directory / VALUE_GAP_CHART.name)
+    return runtime, gap
+
+
 def main() -> None:
-    payload = load_results(RESULTS_PATH)
-    runtime = plot_runtime(payload)
-    gap = plot_value_gap(payload)
+    runtime, gap = save_charts()
     print(f"wrote {runtime}")
     print(f"wrote {gap}")
 
