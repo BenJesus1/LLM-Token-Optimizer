@@ -1,0 +1,26 @@
+{
+  "source": "cache",
+  "model": "claude-haiku-4-5-20251001",
+  "n": 20,
+  "budget": 2560,
+  "seed": 2026,
+  "cached_usage_total_tokens": 5160,
+  "note": "one completion per (question, level); scores are cached 0/1, not P(correct)",
+  "rows": [
+    {
+      "solver": "dp",
+      "total_value": 19.0,
+      "total_cost": 1216
+    },
+    {
+      "solver": "greedy",
+      "total_value": 19.0,
+      "total_cost": 1216
+    },
+    {
+      "solver": "random",
+      "total_value": 19.0,
+      "total_cost": 2560
+    }
+  ]
+}

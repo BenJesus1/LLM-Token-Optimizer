@@ -9,19 +9,20 @@ from .value import CURVES, evaluate_curve
 
 @dataclass(frozen=True)
 class Task:
-    """One job: identifier, a token size, and a simulated value curve.
+    """One job: identifier, a token size, and a value curve.
 
     ``weight`` scales a named curve (default ``log``):
-    value(tokens) = log(1 + tokens) * weight. Values are mocked — never
-    fetched from a live LLM API. ``token_cost`` is the maximum tokens this
-    task may receive. The ``constant`` curve is a 0/1 step: value is ``weight``
-    only when tokens >= token_cost (and at 0 tokens when token_cost is 0).
+    value(tokens) = log(1 + tokens) * weight. Simulated curves are mocked —
+    never fetched from a live LLM API at solve time. ``token_cost`` is the
+    maximum tokens this task may receive. The ``constant`` curve is a 0/1
+    step. The ``table`` curve uses ``value_table`` (cached live scores).
     """
 
     id: str
     token_cost: int
     weight: float
     curve: str = "log"
+    value_table: tuple[tuple[int, float], ...] = ()
 
     def __post_init__(self) -> None:
         if not self.id:
@@ -33,6 +34,18 @@ class Task:
         if self.curve not in CURVES:
             known = ", ".join(sorted(CURVES))
             raise ValueError(f"unknown value curve {self.curve!r}; expected one of: {known}")
+        if self.curve == "table":
+            if not self.value_table:
+                raise ValueError("table curve requires a non-empty value_table")
+            last = -1
+            for level, score in self.value_table:
+                if level <= last:
+                    raise ValueError("value_table levels must be strictly increasing")
+                if level < 0:
+                    raise ValueError("value_table levels must be non-negative")
+                if score < 0:
+                    raise ValueError("value_table scores must be non-negative")
+                last = level
 
     @classmethod
     def constant(cls, id: str, token_cost: int, value: float) -> Task:
@@ -41,16 +54,22 @@ class Task:
         return cls(id=id, token_cost=token_cost, weight=value, curve="constant")
 
     def value_at(self, tokens: int) -> float:
-        """Simulated value of allocating ``tokens`` to this task."""
+        """Value of allocating ``tokens`` to this task."""
 
+        if tokens < 0:
+            raise ValueError("tokens must be a non-negative integer")
         if self.curve == "constant":
-            if tokens < 0:
-                raise ValueError("tokens must be a non-negative integer")
-            # Step function: pay the full cap or get nothing. That embeds 0/1
-            # knapsack inside the variable-token DP (allocate 0 or token_cost).
             if tokens < self.token_cost:
                 return 0.0
             return float(self.weight)
+        if self.curve == "table":
+            best = 0.0
+            for level, score in self.value_table:
+                if level <= tokens:
+                    best = float(score)
+                else:
+                    break
+            return best
         return evaluate_curve(self.curve, tokens, self.weight)
 
     @property

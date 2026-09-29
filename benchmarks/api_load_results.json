@@ -1,0 +1,34 @@
+{
+  "url": "http://127.0.0.1:8000/allocate",
+  "n_tasks": 4,
+  "budget": 20,
+  "n_requests_per_cell": 50,
+  "payload": "tasks.json",
+  "note": "one run per concurrency; wall time at the HTTP client",
+  "rows": [
+    {
+      "concurrency": 1,
+      "n_requests": 50,
+      "p50_s": 0.002310599999873375,
+      "p95_s": 0.002902944999459578,
+      "mean_s": 0.002698884000055841,
+      "max_s": 0.022465400001237867
+    },
+    {
+      "concurrency": 10,
+      "n_requests": 50,
+      "p50_s": 0.018335049999222974,
+      "p95_s": 0.02459766999927524,
+      "mean_s": 0.018099427999950422,
+      "max_s": 0.02529089999916323
+    },
+    {
+      "concurrency": 50,
+      "n_requests": 50,
+      "p50_s": 0.08659119999902032,
+      "p95_s": 0.0927233649998925,
+      "mean_s": 0.08652804999997897,
+      "max_s": 0.09698740000021644
+    }
+  ]
+}

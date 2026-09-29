@@ -1,0 +1,70 @@
+[
+  {"id": "r01", "question": "What is 7 + 5?", "gold": "12"},
+  {"id": "r02", "question": "What is 9 * 8?", "gold": "72"},
+  {"id": "r03", "question": "What is 100 - 37?", "gold": "63"},
+  {"id": "r04", "question": "What is 15% of 200?", "gold": "30"},
+  {"id": "r05", "question": "What is 11 * 11?", "gold": "121"},
+  {
+    "id": "r06",
+    "question": "Natalia sold clips to 48 of her friends in April, and then she sold half as many clips in May. How many clips did Natalia sell altogether in April and May?",
+    "gold": "72"
+  },
+  {
+    "id": "r07",
+    "question": "Weng earns $12 an hour for babysitting. Yesterday she just did 50 minutes of babysitting. How much did she earn?",
+    "gold": "10"
+  },
+  {
+    "id": "r08",
+    "question": "Betty is saving money for a new wallet which costs $100. Betty has only half of the money she needs. Her parents give her $15, and then she needs $5 more from her brother. How much money does Betty have before her parents and brother give her anything?",
+    "gold": "30"
+  },
+  {
+    "id": "r09",
+    "question": "James writes a 3-page letter to 2 different friends twice a week. How many pages does he write in a year?",
+    "gold": "624"
+  },
+  {
+    "id": "r10",
+    "question": "A toaster costs $22. A blender costs $15 more than the toaster. A microwave costs 3 times as much as the blender. How much do all three appliances cost in total?",
+    "gold": "170"
+  },
+  {"id": "r11", "question": "What is 6 + 7?", "gold": "13"},
+  {"id": "r12", "question": "What is 4 * 12?", "gold": "48"},
+  {"id": "r13", "question": "What is 81 divided by 9?", "gold": "9"},
+  {
+    "id": "r14",
+    "question": "A baker bakes 4 trays of 12 cookies. He eats 8 cookies and packs the rest into boxes of 8. How many boxes does he fill?",
+    "gold": "5"
+  },
+  {
+    "id": "r15",
+    "question": "Tom has 3 bags of 8 apples. He gives 4 apples to friends and splits the remaining apples equally among 4 people. How many apples does each person get?",
+    "gold": "5"
+  },
+  {
+    "id": "r16",
+    "question": "A car travels 60 miles in 1.5 hours at a constant speed. How many miles does it travel in 4 hours at that same speed?",
+    "gold": "160"
+  },
+  {
+    "id": "r17",
+    "question": "There are 3 classes of 24 students. One eighth of all students are absent. How many students are present?",
+    "gold": "63"
+  },
+  {
+    "id": "r18",
+    "question": "A shirt costs $40. It is on sale for 25 percent off. What is the sale price in dollars?",
+    "gold": "30"
+  },
+  {
+    "id": "r19",
+    "question": "5 workers paint a fence in 8 days at a constant combined rate. How many days would 10 workers need for the same fence?",
+    "gold": "4"
+  },
+  {
+    "id": "r20",
+    "question": "A warehouse starts with 120 units. It sells 15 units per day for 3 days, then restocks 40 units. How many units are left?",
+    "gold": "115"
+  }
+]

@@ -1,0 +1,848 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_template": "Solve step by step. Write every calculation. Do not put the final answer until the last line. On the last line write: Answer: <number>\n\n{question}",
+  "entries": [
+    {
+      "question_id": "h01",
+      "token_level": 64,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "de9627d66dd212bd770a0891c9c0dbd5a36eb732c69c890915b01b9a8d154cd9",
+      "completion": "Step 1: Start with the first number\n7\n\nStep 2: Add the second number\n7 + 5\n\nStep 3: Calculate the sum\n7 + 5 = 12\n\nAnswer: 12",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 49,
+        "completion_tokens": 52,
+        "total_tokens": 101
+      },
+      "sample": 0
+    },
+    {
+      "question_id": "h01",
+      "token_level": 64,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "de9627d66dd212bd770a0891c9c0dbd5a36eb732c69c890915b01b9a8d154cd9",
+      "completion": "Step 1: Identify the numbers to add\n7 + 5\n\nStep 2: Add the numbers together\n7 + 5 = 12\n\nAnswer: 12",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 49,
+        "completion_tokens": 43,
+        "total_tokens": 92
+      },
+      "sample": 1
+    },
+    {
+      "question_id": "h01",
+      "token_level": 64,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "de9627d66dd212bd770a0891c9c0dbd5a36eb732c69c890915b01b9a8d154cd9",
+      "completion": "Step 1: Identify the numbers to add.\nFirst number: 7\nSecond number: 5\n\nStep 2: Add the numbers together.\n7 + 5 = 12\n\nAnswer: 12",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 49,
+        "completion_tokens": 51,
+        "total_tokens": 100
+      },
+      "sample": 2
+    },
+    {
+      "question_id": "h01",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "de9627d66dd212bd770a0891c9c0dbd5a36eb732c69c890915b01b9a8d154cd9",
+      "completion": "Step 1: Add 7 and 5\n7 + 5 = 12\n\nAnswer: 12",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 49,
+        "completion_tokens": 29,
+        "total_tokens": 78
+      },
+      "sample": 0
+    },
+    {
+      "question_id": "h01",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "de9627d66dd212bd770a0891c9c0dbd5a36eb732c69c890915b01b9a8d154cd9",
+      "completion": "Step 1: Identify the numbers to add\n7 + 5\n\nStep 2: Add the numbers together\n7 + 5 = 12\n\nAnswer: 12",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 49,
+        "completion_tokens": 43,
+        "total_tokens": 92
+      },
+      "sample": 1
+    },
+    {
+      "question_id": "h01",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "de9627d66dd212bd770a0891c9c0dbd5a36eb732c69c890915b01b9a8d154cd9",
+      "completion": "Step 1: Identify the numbers to add\n7 + 5\n\nStep 2: Add the numbers together\n7 + 5 = 12\n\nAnswer: 12",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 49,
+        "completion_tokens": 43,
+        "total_tokens": 92
+      },
+      "sample": 2
+    },
+    {
+      "question_id": "h02",
+      "token_level": 64,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "e901cf046e9064f39f201a95912cb4f82ffb74602d4b5069b481351817311d07",
+      "completion": "Step 1: Multiply 9 by 8\n9 * 8 = 72\n\nAnswer: 72",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 49,
+        "completion_tokens": 30,
+        "total_tokens": 79
+      },
+      "sample": 0
+    },
+    {
+      "question_id": "h02",
+      "token_level": 64,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "e901cf046e9064f39f201a95912cb4f82ffb74602d4b5069b481351817311d07",
+      "completion": "Step 1: Multiply 9 by 8\n9 * 8 = 72\n\nAnswer: 72",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 49,
+        "completion_tokens": 30,
+        "total_tokens": 79
+      },
+      "sample": 1
+    },
+    {
+      "question_id": "h02",
+      "token_level": 64,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "e901cf046e9064f39f201a95912cb4f82ffb74602d4b5069b481351817311d07",
+      "completion": "Step 1: Multiply 9 by 8\n9 * 8 = 72\n\nAnswer: 72",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 49,
+        "completion_tokens": 30,
+        "total_tokens": 79
+      },
+      "sample": 2
+    },
+    {
+      "question_id": "h02",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "e901cf046e9064f39f201a95912cb4f82ffb74602d4b5069b481351817311d07",
+      "completion": "Step 1: Multiply 9 by 8\n9 * 8 = 72\n\nAnswer: 72",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 49,
+        "completion_tokens": 30,
+        "total_tokens": 79
+      },
+      "sample": 0
+    },
+    {
+      "question_id": "h02",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "e901cf046e9064f39f201a95912cb4f82ffb74602d4b5069b481351817311d07",
+      "completion": "Step 1: Multiply 9 by 8\n9 * 8 = 72\n\nAnswer: 72",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 49,
+        "completion_tokens": 30,
+        "total_tokens": 79
+      },
+      "sample": 1
+    },
+    {
+      "question_id": "h02",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "e901cf046e9064f39f201a95912cb4f82ffb74602d4b5069b481351817311d07",
+      "completion": "Step 1: Multiply 9 by 8\n\n9 * 8 = 72\n\nAnswer: 72",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 49,
+        "completion_tokens": 30,
+        "total_tokens": 79
+      },
+      "sample": 2
+    },
+    {
+      "question_id": "h03",
+      "token_level": 64,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "1efbe8c9d5a6d65e18af4486ad9930bc51d078d1a91cc4b88d7d5a0e83f3a617",
+      "completion": "Step 1: Set up the subtraction problem\n100 - 37\n\nStep 2: Break down the calculation\n100 - 37 = 100 - 30 - 7\n\nStep 3: Subtract 30 from 100\n100 - 30 =",
+      "score": 0.0,
+      "usage": {
+        "prompt_tokens": 49,
+        "completion_tokens": 64,
+        "total_tokens": 113
+      },
+      "sample": 0
+    },
+    {
+      "question_id": "h03",
+      "token_level": 64,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "1efbe8c9d5a6d65e18af4486ad9930bc51d078d1a91cc4b88d7d5a0e83f3a617",
+      "completion": "Step 1: Set up the subtraction problem\n100 - 37\n\nStep 2: Break down the subtraction\n100 - 37 = 100 - 30 - 7\n\nStep 3: Subtract 30 from 100\n100 - 30 ",
+      "score": 0.0,
+      "usage": {
+        "prompt_tokens": 49,
+        "completion_tokens": 64,
+        "total_tokens": 113
+      },
+      "sample": 1
+    },
+    {
+      "question_id": "h03",
+      "token_level": 64,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "1efbe8c9d5a6d65e18af4486ad9930bc51d078d1a91cc4b88d7d5a0e83f3a617",
+      "completion": "Step 1: Set up the subtraction problem.\n100 - 37\n\nStep 2: Break down the subtraction.\n100 - 37 = 100 - 30 - 7\n\nStep 3: Subtract 30 from 100.\n100 -",
+      "score": 0.0,
+      "usage": {
+        "prompt_tokens": 49,
+        "completion_tokens": 64,
+        "total_tokens": 113
+      },
+      "sample": 2
+    },
+    {
+      "question_id": "h03",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "1efbe8c9d5a6d65e18af4486ad9930bc51d078d1a91cc4b88d7d5a0e83f3a617",
+      "completion": "Step 1: Set up the subtraction problem.\n100 - 37\n\nStep 2: Subtract the ones place.\n0 - 7 cannot be done, so I need to borrow from the tens place.\nThe 0 becomes 10, and the tens place decreases by 1.\n10 - 7 = 3\n\nStep 3: Subtract the tens place.\nThe tens place is now 0 - 1 (from borrowing) = -1, so I need to borrow from the hundreds place.\nThe hundreds place (1) becomes 0, and the tens place becomes 10 - 1 = 9.\n9 - 3 = 6\n\nStep 4: Subtract the hundreds place.\n0 - 0 = 0 (the hundreds place is now 0 after borrowing)\n\nStep 5: Combine the results.\nThe answer is 63.\n\nAnswer: 63",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 49,
+        "completion_tokens": 220,
+        "total_tokens": 269
+      },
+      "sample": 0
+    },
+    {
+      "question_id": "h03",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "1efbe8c9d5a6d65e18af4486ad9930bc51d078d1a91cc4b88d7d5a0e83f3a617",
+      "completion": "Step 1: Set up the subtraction problem\n100 - 37\n\nStep 2: Break down the subtraction\n100 - 37 = 100 - 30 - 7\n\nStep 3: Subtract 30 from 100\n100 - 30 = 70\n\nStep 4: Subtract 7 from the result\n70 - 7 = 63\n\nAnswer: 63",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 49,
+        "completion_tokens": 98,
+        "total_tokens": 147
+      },
+      "sample": 1
+    },
+    {
+      "question_id": "h03",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "1efbe8c9d5a6d65e18af4486ad9930bc51d078d1a91cc4b88d7d5a0e83f3a617",
+      "completion": "Step 1: Set up the subtraction problem.\n100 - 37\n\nStep 2: Subtract the ones place.\n0 - 7 cannot be done, so we need to borrow from the tens place.\nThe 0 becomes 10, and the tens place decreases by 1.\n10 - 7 = 3\n\nStep 3: Subtract the tens place.\n(10 - 1) - 3 = 9 - 3 = 6\n\nStep 4: Subtract the hundreds place.\n1 - 0 = 1\n\nStep 5: Combine the results.\nThe answer is 63.\n\nAnswer: 63",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 49,
+        "completion_tokens": 159,
+        "total_tokens": 208
+      },
+      "sample": 2
+    },
+    {
+      "question_id": "h04",
+      "token_level": 64,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "d4a217c51d6fe1417380b1ff4c865cbbdfe71a53f0e97498639cb90e80fbfb31",
+      "completion": "Step 1: Convert the percentage to a decimal.\n15% = 15/100 = 0.15\n\nStep 2: Multiply the decimal by the number.\n0.15 \u00d7 200 = 30\n\nAnswer: 30",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 49,
+        "completion_tokens": 58,
+        "total_tokens": 107
+      },
+      "sample": 0
+    },
+    {
+      "question_id": "h04",
+      "token_level": 64,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "d4a217c51d6fe1417380b1ff4c865cbbdfe71a53f0e97498639cb90e80fbfb31",
+      "completion": "Step 1: Convert the percentage to a decimal.\n15% = 15/100 = 0.15\n\nStep 2: Multiply the decimal by the number.\n0.15 \u00d7 200 = 30\n\nAnswer: 30",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 49,
+        "completion_tokens": 58,
+        "total_tokens": 107
+      },
+      "sample": 1
+    },
+    {
+      "question_id": "h04",
+      "token_level": 64,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "d4a217c51d6fe1417380b1ff4c865cbbdfe71a53f0e97498639cb90e80fbfb31",
+      "completion": "Step 1: Convert the percentage to a decimal.\n15% = 15/100 = 0.15\n\nStep 2: Multiply the decimal by the number.\n0.15 \u00d7 200 = 30\n\nAnswer: 30",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 49,
+        "completion_tokens": 58,
+        "total_tokens": 107
+      },
+      "sample": 2
+    },
+    {
+      "question_id": "h04",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "d4a217c51d6fe1417380b1ff4c865cbbdfe71a53f0e97498639cb90e80fbfb31",
+      "completion": "Step 1: Convert the percentage to a decimal.\n15% = 15/100 = 0.15\n\nStep 2: Multiply the decimal by the number.\n0.15 \u00d7 200 = 30\n\nAnswer: 30",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 49,
+        "completion_tokens": 58,
+        "total_tokens": 107
+      },
+      "sample": 0
+    },
+    {
+      "question_id": "h04",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "d4a217c51d6fe1417380b1ff4c865cbbdfe71a53f0e97498639cb90e80fbfb31",
+      "completion": "# Finding 15% of 200\n\nStep 1: Convert the percentage to a decimal.\n15% = 15/100 = 0.15\n\nStep 2: Multiply 200 by 0.15.\n200 \u00d7 0.15 = 30\n\nAnswer: 30",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 49,
+        "completion_tokens": 70,
+        "total_tokens": 119
+      },
+      "sample": 1
+    },
+    {
+      "question_id": "h04",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "d4a217c51d6fe1417380b1ff4c865cbbdfe71a53f0e97498639cb90e80fbfb31",
+      "completion": "# Finding 15% of 200\n\n**Step 1: Convert the percentage to a decimal**\n15% = 15/100 = 0.15\n\n**Step 2: Multiply the decimal by 200**\n0.15 \u00d7 200 = ?\n\n**Step 3: Perform the multiplication**\n0.15 \u00d7 200 = 30\n\nAnswer: 30",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 49,
+        "completion_tokens": 91,
+        "total_tokens": 140
+      },
+      "sample": 2
+    },
+    {
+      "question_id": "h05",
+      "token_level": 64,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "82b9a68c834e84eaabbe996c936b3874ed4c1584a83b074b6bb29082f0790b70",
+      "completion": "Step 1: Set up the multiplication problem\n11 * 11\n\nStep 2: Break down 11 * 11 using the distributive property\n11 * 11 = (10 + 1) * (10 + 1)\n\nStep 3: Expand",
+      "score": 0.0,
+      "usage": {
+        "prompt_tokens": 49,
+        "completion_tokens": 64,
+        "total_tokens": 113
+      },
+      "sample": 0
+    },
+    {
+      "question_id": "h05",
+      "token_level": 64,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "82b9a68c834e84eaabbe996c936b3874ed4c1584a83b074b6bb29082f0790b70",
+      "completion": "Step 1: Set up the multiplication problem\n11 * 11\n\nStep 2: Break down 11 * 11 using the distributive property\n11 * 11 = (10 + 1) * (10 + 1)\n\nStep 3: Expand",
+      "score": 0.0,
+      "usage": {
+        "prompt_tokens": 49,
+        "completion_tokens": 64,
+        "total_tokens": 113
+      },
+      "sample": 1
+    },
+    {
+      "question_id": "h05",
+      "token_level": 64,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "82b9a68c834e84eaabbe996c936b3874ed4c1584a83b074b6bb29082f0790b70",
+      "completion": "Step 1: Set up the multiplication problem\n11 * 11\n\nStep 2: Break down 11 * 11 using the distributive property\n11 * 11 = (10 + 1) * (10 + 1)\n\nStep 3: Expand",
+      "score": 0.0,
+      "usage": {
+        "prompt_tokens": 49,
+        "completion_tokens": 64,
+        "total_tokens": 113
+      },
+      "sample": 2
+    },
+    {
+      "question_id": "h05",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "82b9a68c834e84eaabbe996c936b3874ed4c1584a83b074b6bb29082f0790b70",
+      "completion": "Step 1: Set up the multiplication problem\n11 * 11\n\nStep 2: Break down 11 * 11 using the distributive property\n11 * 11 = (10 + 1) * (10 + 1)\n\nStep 3: Expand using FOIL (First, Outer, Inner, Last)\n= 10 * 10 + 10 * 1 + 1 * 10 + 1 * 1\n\nStep 4: Calculate each term\n10 * 10 = 100\n10 * 1 = 10\n1 * 10 = 10\n1 * 1 = 1\n\nStep 5: Add all terms together\n100 + 10 + 10 + 1 = 121\n\nAnswer: 121",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 49,
+        "completion_tokens": 193,
+        "total_tokens": 242
+      },
+      "sample": 0
+    },
+    {
+      "question_id": "h05",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "82b9a68c834e84eaabbe996c936b3874ed4c1584a83b074b6bb29082f0790b70",
+      "completion": "Step 1: Calculate 11 * 11\n\n11 * 11 = 11 * (10 + 1)\n\nStep 2: Distribute the multiplication\n\n11 * 10 + 11 * 1 = 110 + 11\n\nStep 3: Add the results\n\n110 + 11 = 121\n\nAnswer: 121",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 49,
+        "completion_tokens": 87,
+        "total_tokens": 136
+      },
+      "sample": 1
+    },
+    {
+      "question_id": "h05",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "82b9a68c834e84eaabbe996c936b3874ed4c1584a83b074b6bb29082f0790b70",
+      "completion": "Step 1: Set up the multiplication problem\n11 * 11\n\nStep 2: Break down 11 * 11 using the distributive property\n11 * 11 = (10 + 1) * (10 + 1)\n\nStep 3: Expand using FOIL (First, Outer, Inner, Last)\n= (10 * 10) + (10 * 1) + (1 * 10) + (1 * 1)\n\nStep 4: Calculate each term\n10 * 10 = 100\n10 * 1 = 10\n1 * 10 = 10\n1 * 1 = 1\n\nStep 5: Add all terms together\n100 + 10 + 10 + 1 = 121\n\nAnswer: 121",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 49,
+        "completion_tokens": 194,
+        "total_tokens": 243
+      },
+      "sample": 2
+    },
+    {
+      "question_id": "h06",
+      "token_level": 64,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "70b93ed6c4edeada9b9ca04a04e2e394c186bd3fc817b02ad76cf61dab8e0b5c",
+      "completion": "Step 1: Find how many clips Natalia sold in April.\nClips sold in April = 48\n\nStep 2: Find how many clips Natalia sold in May.\nIn May, she sold half as many clips as in April.\nClips sold in May = 48 ",
+      "score": 0.0,
+      "usage": {
+        "prompt_tokens": 80,
+        "completion_tokens": 64,
+        "total_tokens": 144
+      },
+      "sample": 0
+    },
+    {
+      "question_id": "h06",
+      "token_level": 64,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "70b93ed6c4edeada9b9ca04a04e2e394c186bd3fc817b02ad76cf61dab8e0b5c",
+      "completion": "Step 1: Find how many clips Natalia sold in April.\nClips sold in April = 48\n\nStep 2: Find how many clips Natalia sold in May.\nIn May, she sold half as many clips as in April.\nClips sold in May = 48 ",
+      "score": 0.0,
+      "usage": {
+        "prompt_tokens": 80,
+        "completion_tokens": 64,
+        "total_tokens": 144
+      },
+      "sample": 1
+    },
+    {
+      "question_id": "h06",
+      "token_level": 64,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "70b93ed6c4edeada9b9ca04a04e2e394c186bd3fc817b02ad76cf61dab8e0b5c",
+      "completion": "Step 1: Find how many clips Natalia sold in April.\nClips sold in April = 48\n\nStep 2: Find how many clips Natalia sold in May.\nIn May, she sold half as many as April.\nClips sold in May = 48 ",
+      "score": 0.0,
+      "usage": {
+        "prompt_tokens": 80,
+        "completion_tokens": 64,
+        "total_tokens": 144
+      },
+      "sample": 2
+    },
+    {
+      "question_id": "h06",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "70b93ed6c4edeada9b9ca04a04e2e394c186bd3fc817b02ad76cf61dab8e0b5c",
+      "completion": "Step 1: Find how many clips Natalia sold in April.\nApril sales = 48 clips\n\nStep 2: Find how many clips Natalia sold in May.\nMay sales = half as many as April\nMay sales = 48 \u00f7 2\nMay sales = 24 clips\n\nStep 3: Find the total clips sold in April and May.\nTotal = April sales + May sales\nTotal = 48 + 24\nTotal = 72 clips\n\nAnswer: 72",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 80,
+        "completion_tokens": 116,
+        "total_tokens": 196
+      },
+      "sample": 0
+    },
+    {
+      "question_id": "h06",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "70b93ed6c4edeada9b9ca04a04e2e394c186bd3fc817b02ad76cf61dab8e0b5c",
+      "completion": "Step 1: Find how many clips Natalia sold in April.\nApril sales = 48 clips\n\nStep 2: Find how many clips Natalia sold in May.\nMay sales = half as many as April\nMay sales = 48 \u00f7 2\nMay sales = 24 clips\n\nStep 3: Find the total clips sold in April and May.\nTotal = April sales + May sales\nTotal = 48 + 24\nTotal = 72 clips\n\nAnswer: 72",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 80,
+        "completion_tokens": 116,
+        "total_tokens": 196
+      },
+      "sample": 1
+    },
+    {
+      "question_id": "h06",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "70b93ed6c4edeada9b9ca04a04e2e394c186bd3fc817b02ad76cf61dab8e0b5c",
+      "completion": "Step 1: Find how many clips Natalia sold in April.\nClips sold in April = 48\n\nStep 2: Find how many clips Natalia sold in May.\nIn May, she sold half as many as April.\nClips sold in May = 48 \u00f7 2 = 24\n\nStep 3: Find the total clips sold in April and May.\nTotal clips = Clips in April + Clips in May\nTotal clips = 48 + 24 = 72\n\nAnswer: 72",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 80,
+        "completion_tokens": 122,
+        "total_tokens": 202
+      },
+      "sample": 2
+    },
+    {
+      "question_id": "h07",
+      "token_level": 64,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "841d1fc0f7920b63bb22b6e36a728aa507f34e93132c6ea8e0b4a7592bc685c7",
+      "completion": "Step 1: Identify the hourly rate.\nWeng earns $12 per hour.\n\nStep 2: Identify the time worked.\nWeng worked for 50 minutes.\n\nStep 3: Convert minutes to hours.\n50 minutes \u00f7 ",
+      "score": 0.0,
+      "usage": {
+        "prompt_tokens": 74,
+        "completion_tokens": 64,
+        "total_tokens": 138
+      },
+      "sample": 0
+    },
+    {
+      "question_id": "h07",
+      "token_level": 64,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "841d1fc0f7920b63bb22b6e36a728aa507f34e93132c6ea8e0b4a7592bc685c7",
+      "completion": "Step 1: Identify the hourly rate.\nWeng earns $12 per hour.\n\nStep 2: Identify the time worked.\nWeng worked 50 minutes.\n\nStep 3: Convert minutes to hours.\n50 minutes \u00f7 60",
+      "score": 0.0,
+      "usage": {
+        "prompt_tokens": 74,
+        "completion_tokens": 64,
+        "total_tokens": 138
+      },
+      "sample": 1
+    },
+    {
+      "question_id": "h07",
+      "token_level": 64,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "841d1fc0f7920b63bb22b6e36a728aa507f34e93132c6ea8e0b4a7592bc685c7",
+      "completion": "Step 1: Convert the hourly rate to a per-minute rate.\nWeng earns $12 per hour.\nThere are 60 minutes in 1 hour.\nRate per minute = $12 \u00f7 60 = $0.20 per minute",
+      "score": 0.0,
+      "usage": {
+        "prompt_tokens": 74,
+        "completion_tokens": 64,
+        "total_tokens": 138
+      },
+      "sample": 2
+    },
+    {
+      "question_id": "h07",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "841d1fc0f7920b63bb22b6e36a728aa507f34e93132c6ea8e0b4a7592bc685c7",
+      "completion": "Step 1: Identify the hourly rate.\nWeng earns $12 per hour.\n\nStep 2: Identify the time worked.\nWeng babysat for 50 minutes.\n\nStep 3: Convert minutes to hours.\n50 minutes \u00f7 60 minutes per hour = 50/60 hours\n50/60 = 5/6 hours\n\nStep 4: Calculate earnings.\nEarnings = Hourly rate \u00d7 Time worked in hours\nEarnings = $12 \u00d7 5/6\nEarnings = $12 \u00d7 5 \u00f7 6\nEarnings = $60 \u00f7 6\nEarnings = $10\n\nAnswer: $10",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 74,
+        "completion_tokens": 167,
+        "total_tokens": 241
+      },
+      "sample": 0
+    },
+    {
+      "question_id": "h07",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "841d1fc0f7920b63bb22b6e36a728aa507f34e93132c6ea8e0b4a7592bc685c7",
+      "completion": "Step 1: Identify the hourly rate.\nWeng earns $12 per hour.\n\nStep 2: Identify the time worked.\nWeng worked for 50 minutes.\n\nStep 3: Convert minutes to hours.\n50 minutes \u00f7 60 minutes per hour = 50/60 hours\n50/60 = 5/6 hours\n\nStep 4: Calculate earnings.\nEarnings = Hourly rate \u00d7 Hours worked\nEarnings = $12 \u00d7 5/6\nEarnings = (12 \u00d7 5) / 6\nEarnings = 60 / 6\nEarnings = $10\n\nAnswer: $10",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 74,
+        "completion_tokens": 157,
+        "total_tokens": 231
+      },
+      "sample": 1
+    },
+    {
+      "question_id": "h07",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "841d1fc0f7920b63bb22b6e36a728aa507f34e93132c6ea8e0b4a7592bc685c7",
+      "completion": "Step 1: Identify the hourly rate.\nWeng earns $12 per hour.\n\nStep 2: Identify the time worked.\nWeng worked 50 minutes.\n\nStep 3: Convert minutes to hours.\n50 minutes \u00f7 60 minutes per hour = 50/60 hours\n50/60 = 5/6 hours\n\nStep 4: Calculate earnings.\nEarnings = Hourly rate \u00d7 Hours worked\nEarnings = $12 \u00d7 5/6\nEarnings = $12 \u00d7 5 \u00f7 6\nEarnings = $60 \u00f7 6\nEarnings = $10\n\nAnswer: $10",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 74,
+        "completion_tokens": 162,
+        "total_tokens": 236
+      },
+      "sample": 2
+    },
+    {
+      "question_id": "h08",
+      "token_level": 64,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "01e159ae4c44abda0e53b93b869fff1c5f862ee5b78aa13ce8341a7b8698faf4",
+      "completion": "Step 1: Find how much money Betty needs for the wallet.\nThe wallet costs $100.\n\nStep 2: Find how much money Betty has initially (before parents and brother give her anything).\nBetty has only half of the money she needs.\nMoney Betty has initially = $100 ",
+      "score": 0.0,
+      "usage": {
+        "prompt_tokens": 97,
+        "completion_tokens": 64,
+        "total_tokens": 161
+      },
+      "sample": 0
+    },
+    {
+      "question_id": "h08",
+      "token_level": 64,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "01e159ae4c44abda0e53b93b869fff1c5f862ee5b78aa13ce8341a7b8698faf4",
+      "completion": "Step 1: Find how much money Betty needs in total.\nThe wallet costs $100.\n\nStep 2: Find how much money Betty has initially (before parents and brother give her anything).\nBetty has only half of the money she needs.\nInitial money = $100 \u00f7 ",
+      "score": 0.0,
+      "usage": {
+        "prompt_tokens": 97,
+        "completion_tokens": 64,
+        "total_tokens": 161
+      },
+      "sample": 1
+    },
+    {
+      "question_id": "h08",
+      "token_level": 64,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "01e159ae4c44abda0e53b93b869fff1c5f862ee5b78aa13ce8341a7b8698faf4",
+      "completion": "Step 1: Find how much money Betty needs for the wallet.\nWallet costs = $100\n\nStep 2: Find how much money Betty has initially (before parents and brother help).\nBetty has half of what she needs = $100 \u00f7 2 = $50\n\nStep",
+      "score": 0.0,
+      "usage": {
+        "prompt_tokens": 97,
+        "completion_tokens": 64,
+        "total_tokens": 161
+      },
+      "sample": 2
+    },
+    {
+      "question_id": "h08",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "01e159ae4c44abda0e53b93b869fff1c5f862ee5b78aa13ce8341a7b8698faf4",
+      "completion": "Step 1: Find how much money Betty needs in total.\nThe wallet costs $100.\n\nStep 2: Find how much money Betty has initially (before parents and brother give her anything).\nBetty has only half of the money she needs.\nMoney Betty has initially = $100 \u00f7 2 = $50\n\nStep 3: Verify this makes sense with the rest of the problem.\n- Betty starts with: $50\n- Parents give her: $15\n- After parents: $50 + $15 = $65\n- Brother gives her: $5\n- After brother: $65 + $5 = $70\n\nStep 4: Check if this adds up to the wallet cost.\n$70 is what she has after receiving money from parents and brother.\nThe wallet costs $100, so she still needs: $100 - $70 = $30 more\n(This seems reasonable - the problem asks how much she has BEFORE they give her anything)\n\nAnswer: $50",
+      "score": 0.0,
+      "usage": {
+        "prompt_tokens": 97,
+        "completion_tokens": 225,
+        "total_tokens": 322
+      },
+      "sample": 0
+    },
+    {
+      "question_id": "h08",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "01e159ae4c44abda0e53b93b869fff1c5f862ee5b78aa13ce8341a7b8698faf4",
+      "completion": "Step 1: Find how much money Betty needs for the wallet.\nThe wallet costs $100.\n\nStep 2: Find how much money Betty has initially (before parents and brother give her anything).\nBetty has only half of the money she needs.\nHalf of $100 = $100 \u00f7 2 = $50\n\nStep 3: Verify this is correct by checking if the total works out.\n- Betty starts with: $50\n- Parents give her: $15\n- Brother gives her: $5\n- Total: $50 + $15 + $5 = $70\n\nWait, let me reconsider the problem. The question asks how much money Betty has BEFORE her parents and brother give her anything. That's asking for her initial amount.\n\nStep 1: The wallet costs $100\nStep 2: Betty has half of what she needs\nHalf of $100 = $100 \u00f7 2 = $50\n\nAnswer: $50",
+      "score": 0.0,
+      "usage": {
+        "prompt_tokens": 97,
+        "completion_tokens": 220,
+        "total_tokens": 317
+      },
+      "sample": 1
+    },
+    {
+      "question_id": "h08",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "01e159ae4c44abda0e53b93b869fff1c5f862ee5b78aa13ce8341a7b8698faf4",
+      "completion": "Step 1: Find how much money Betty needs for the wallet.\nThe wallet costs $100.\n\nStep 2: Find how much money Betty has initially (before parents and brother give her anything).\nBetty has only half of the money she needs.\nMoney Betty has initially = $100 \u00f7 2 = $50\n\nStep 3: Verify this is correct by checking the final amount.\nBetty starts with: $50\nParents give her: $15\nBrother gives her: $5\nTotal after: $50 + $15 + $5 = $70\n\nLet me verify: The problem states \"she needs $5 more from her brother\" - this means after getting $15 from parents, she still needs $5 more to reach $100.\n$50 + $15 = $65\n$65 + $5 = $70\n\nWait, let me reconsider. If she needs $5 more after her parents give her $15, then:\n$50 + $15 = $65, and she needs $5 more to have enough.\nBut the question asks how much she has BEFORE anyone gives her anything.",
+      "score": 0.0,
+      "usage": {
+        "prompt_tokens": 97,
+        "completion_tokens": 256,
+        "total_tokens": 353
+      },
+      "sample": 2
+    },
+    {
+      "question_id": "h09",
+      "token_level": 64,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "1e658b228e78eba80b3c3bec21243379fe795ac5d7f52ce634c5d3aef0569a19",
+      "completion": "# Step-by-step solution:\n\n**Step 1: Calculate pages written per letter**\n- Pages per letter = 3 pages\n- Number of friends = 2\n- Pages written per time = 3 pages \u00d7 2 friends = 6 pages\n\n**Step 2",
+      "score": 0.0,
+      "usage": {
+        "prompt_tokens": 68,
+        "completion_tokens": 64,
+        "total_tokens": 132
+      },
+      "sample": 0
+    },
+    {
+      "question_id": "h09",
+      "token_level": 64,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "1e658b228e78eba80b3c3bec21243379fe795ac5d7f52ce634c5d3aef0569a19",
+      "completion": "# Step-by-step calculation\n\n**Step 1: Calculate pages written per letter**\n- Pages per letter = 3 pages\n\n**Step 2: Calculate number of letters written per week**\n- Letters written per week = 2 different friends \u00d7 2 times per week\n-",
+      "score": 0.0,
+      "usage": {
+        "prompt_tokens": 68,
+        "completion_tokens": 64,
+        "total_tokens": 132
+      },
+      "sample": 1
+    },
+    {
+      "question_id": "h09",
+      "token_level": 64,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "1e658b228e78eba80b3c3bec21243379fe795ac5d7f52ce634c5d3aef0569a19",
+      "completion": "# Step-by-step solution:\n\n**Step 1: Calculate pages written per letter**\n- Pages per letter = 3 pages\n- Number of friends = 2\n- Pages written per time he writes = 3 pages \u00d7 2 friends = 6 pages\n\n**Step",
+      "score": 0.0,
+      "usage": {
+        "prompt_tokens": 68,
+        "completion_tokens": 64,
+        "total_tokens": 132
+      },
+      "sample": 2
+    },
+    {
+      "question_id": "h09",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "1e658b228e78eba80b3c3bec21243379fe795ac5d7f52ce634c5d3aef0569a19",
+      "completion": "# Step-by-step solution:\n\n**Step 1: Calculate pages written per letter**\n- Pages per letter = 3 pages\n- Number of friends = 2\n- Pages per mailing = 3 pages \u00d7 2 friends = 6 pages\n\n**Step 2: Calculate pages written per week**\n- He writes twice a week\n- Pages per week = 6 pages \u00d7 2 times per week = 12 pages per week\n\n**Step 3: Calculate pages written per year**\n- Number of weeks in a year = 52 weeks\n- Pages per year = 12 pages per week \u00d7 52 weeks = 624 pages\n\nAnswer: 624",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 68,
+        "completion_tokens": 157,
+        "total_tokens": 225
+      },
+      "sample": 0
+    },
+    {
+      "question_id": "h09",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "1e658b228e78eba80b3c3bec21243379fe795ac5d7f52ce634c5d3aef0569a19",
+      "completion": "# Step-by-step calculation:\n\n**Step 1: Find how many letters James writes per week**\n- He writes to 2 different friends\n- He does this twice a week\n- Letters per week = 2 friends \u00d7 2 times per week = 4 letters per week\n\n**Step 2: Find how many pages per week**\n- Each letter is 3 pages\n- Pages per week = 4 letters \u00d7 3 pages per letter = 12 pages per week\n\n**Step 3: Find how many weeks are in a year**\n- Weeks per year = 52 weeks\n\n**Step 4: Find total pages per year**\n- Pages per year = 12 pages per week \u00d7 52 weeks per year\n- Pages per year = 624 pages\n\nAnswer: 624",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 68,
+        "completion_tokens": 186,
+        "total_tokens": 254
+      },
+      "sample": 1
+    },
+    {
+      "question_id": "h09",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "1e658b228e78eba80b3c3bec21243379fe795ac5d7f52ce634c5d3aef0569a19",
+      "completion": "# Step-by-step solution\n\n**Step 1: Calculate pages written per letter**\n- Pages per letter = 3 pages\n- Number of friends = 2 different friends\n- Pages written per time he writes = 3 pages \u00d7 2 friends = 6 pages\n\n**Step 2: Calculate pages written per week**\n- He writes twice a week\n- Pages per week = 6 pages \u00d7 2 times per week = 12 pages per week\n\n**Step 3: Calculate number of weeks in a year**\n- Weeks in a year = 52 weeks\n\n**Step 4: Calculate total pages written in a year**\n- Total pages = 12 pages per week \u00d7 52 weeks per year\n- Total pages = 624 pages\n\nAnswer: 624",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 68,
+        "completion_tokens": 181,
+        "total_tokens": 249
+      },
+      "sample": 2
+    },
+    {
+      "question_id": "h10",
+      "token_level": 64,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "39bae0aea94fa472ef0923afb093e5c2b5b8c64453dbfa6936555120727dbd7a",
+      "completion": "Step 1: Find the cost of the blender.\nThe blender costs $15 more than the toaster.\nToaster cost = $22\nBlender cost = $22 + $15 = $37\n\nStep 2: Find the cost of the microwave.",
+      "score": 0.0,
+      "usage": {
+        "prompt_tokens": 86,
+        "completion_tokens": 64,
+        "total_tokens": 150
+      },
+      "sample": 0
+    },
+    {
+      "question_id": "h10",
+      "token_level": 64,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "39bae0aea94fa472ef0923afb093e5c2b5b8c64453dbfa6936555120727dbd7a",
+      "completion": "Step 1: Find the cost of the blender.\nBlender cost = Toaster cost + $15\nBlender cost = $22 + $15\nBlender cost = $37\n\nStep 2: Find the cost of the microwave.\nMicrowave cost =",
+      "score": 0.0,
+      "usage": {
+        "prompt_tokens": 86,
+        "completion_tokens": 64,
+        "total_tokens": 150
+      },
+      "sample": 1
+    },
+    {
+      "question_id": "h10",
+      "token_level": 64,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "39bae0aea94fa472ef0923afb093e5c2b5b8c64453dbfa6936555120727dbd7a",
+      "completion": "Step 1: Find the cost of the blender.\nThe blender costs $15 more than the toaster.\nToaster cost = $22\nBlender cost = $22 + $15 = $37\n\nStep 2: Find the cost of the microwave.",
+      "score": 0.0,
+      "usage": {
+        "prompt_tokens": 86,
+        "completion_tokens": 64,
+        "total_tokens": 150
+      },
+      "sample": 2
+    },
+    {
+      "question_id": "h10",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "39bae0aea94fa472ef0923afb093e5c2b5b8c64453dbfa6936555120727dbd7a",
+      "completion": "Step 1: Find the cost of the blender.\nThe blender costs $15 more than the toaster.\nBlender cost = $22 + $15 = $37\n\nStep 2: Find the cost of the microwave.\nThe microwave costs 3 times as much as the blender.\nMicrowave cost = 3 \u00d7 $37 = $111\n\nStep 3: Find the total cost of all three appliances.\nTotal cost = Toaster + Blender + Microwave\nTotal cost = $22 + $37 + $111 = $170\n\nAnswer: $170",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 86,
+        "completion_tokens": 143,
+        "total_tokens": 229
+      },
+      "sample": 0
+    },
+    {
+      "question_id": "h10",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "39bae0aea94fa472ef0923afb093e5c2b5b8c64453dbfa6936555120727dbd7a",
+      "completion": "Step 1: Find the cost of the blender.\nThe blender costs $15 more than the toaster.\nBlender cost = $22 + $15\nBlender cost = $37\n\nStep 2: Find the cost of the microwave.\nThe microwave costs 3 times as much as the blender.\nMicrowave cost = 3 \u00d7 $37\nMicrowave cost = $111\n\nStep 3: Find the total cost of all three appliances.\nTotal cost = Toaster + Blender + Microwave\nTotal cost = $22 + $37 + $111\nTotal cost = $170\n\nAnswer: 170",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 86,
+        "completion_tokens": 153,
+        "total_tokens": 239
+      },
+      "sample": 1
+    },
+    {
+      "question_id": "h10",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "39bae0aea94fa472ef0923afb093e5c2b5b8c64453dbfa6936555120727dbd7a",
+      "completion": "Step 1: Find the cost of the blender.\nThe blender costs $15 more than the toaster.\nBlender cost = $22 + $15 = $37\n\nStep 2: Find the cost of the microwave.\nThe microwave costs 3 times as much as the blender.\nMicrowave cost = 3 \u00d7 $37 = $111\n\nStep 3: Find the total cost of all three appliances.\nTotal cost = Toaster + Blender + Microwave\nTotal cost = $22 + $37 + $111 = $170\n\nAnswer: $170",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 86,
+        "completion_tokens": 143,
+        "total_tokens": 229
+      },
+      "sample": 2
+    }
+  ],
+  "temperature": 0.5,
+  "k": 3
+}

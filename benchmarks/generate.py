@@ -13,7 +13,8 @@ from allocator import CURVES, Task
 
 SCALES: tuple[int, ...] = (10, 100, 1_000)
 DEFAULT_SEED = 2026
-CURVE_CHOICES: tuple[str, ...] = tuple(sorted(CURVES))
+# v1 synthetic benches use simulated curves only; ``table`` needs a value_table.
+CURVE_CHOICES: tuple[str, ...] = tuple(sorted(name for name in CURVES if name != "table"))
 
 
 @dataclass(frozen=True)

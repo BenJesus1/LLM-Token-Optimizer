@@ -4,15 +4,18 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "allocator"
-version = "0.1.0"
+version = "0.5.0"
 description = "Allocate a fixed token/dollar budget across competing LLM tasks, comparing exact DP against a greedy baseline."
 readme = "README.md"
 license = { file = "LICENSE" }
 requires-python = ">=3.11"
-# Standard library plus these two only — no LLM SDKs or extra frameworks.
+# Solvers stay stdlib. v2 adds FastAPI. v3/v4/v5 live collect uses httpx + ANTHROPIC_API_KEY (never in CI).
 dependencies = [
     "matplotlib>=3.8",
     "pytest>=8.0",
+    "fastapi>=0.110",
+    "uvicorn>=0.27",
+    "httpx>=0.27",
 ]
 
 [tool.setuptools.packages.find]
@@ -24,3 +27,6 @@ allocator = "allocator.cli:main"
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 pythonpath = ["src", "."]
+filterwarnings = [
+    "ignore:Using `httpx` with `starlette.testclient` is deprecated:starlette.exceptions.StarletteDeprecationWarning",
+]

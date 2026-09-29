@@ -1,0 +1,572 @@
+{
+  "source": "fixture",
+  "prompt_template": "Solve step by step. Write every calculation. Do not put the final answer until the last line. On the last line write: Answer: <number>\n\n{question}",
+  "k": 1,
+  "temperature": 0.0,
+  "models": [
+    "claude-haiku-4-5-20251001",
+    "claude-sonnet-4-5-20250929"
+  ],
+  "entries": [
+    {
+      "question_id": "r01",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "de9627d66dd212bd770a0891c9c0dbd5a36eb732c69c890915b01b9a8d154cd9",
+      "sample": 0,
+      "completion": "Answer: 12",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "r01",
+      "token_level": 256,
+      "model": "claude-sonnet-4-5-20250929",
+      "prompt_hash": "de9627d66dd212bd770a0891c9c0dbd5a36eb732c69c890915b01b9a8d154cd9",
+      "sample": 0,
+      "completion": "Answer: 12",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "r02",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "e901cf046e9064f39f201a95912cb4f82ffb74602d4b5069b481351817311d07",
+      "sample": 0,
+      "completion": "Answer: 72",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "r02",
+      "token_level": 256,
+      "model": "claude-sonnet-4-5-20250929",
+      "prompt_hash": "e901cf046e9064f39f201a95912cb4f82ffb74602d4b5069b481351817311d07",
+      "sample": 0,
+      "completion": "Answer: 72",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "r03",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "1efbe8c9d5a6d65e18af4486ad9930bc51d078d1a91cc4b88d7d5a0e83f3a617",
+      "sample": 0,
+      "completion": "Answer: 63",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "r03",
+      "token_level": 256,
+      "model": "claude-sonnet-4-5-20250929",
+      "prompt_hash": "1efbe8c9d5a6d65e18af4486ad9930bc51d078d1a91cc4b88d7d5a0e83f3a617",
+      "sample": 0,
+      "completion": "Answer: 63",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "r04",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "d4a217c51d6fe1417380b1ff4c865cbbdfe71a53f0e97498639cb90e80fbfb31",
+      "sample": 0,
+      "completion": "Answer: 30",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "r04",
+      "token_level": 256,
+      "model": "claude-sonnet-4-5-20250929",
+      "prompt_hash": "d4a217c51d6fe1417380b1ff4c865cbbdfe71a53f0e97498639cb90e80fbfb31",
+      "sample": 0,
+      "completion": "Answer: 30",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "r05",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "82b9a68c834e84eaabbe996c936b3874ed4c1584a83b074b6bb29082f0790b70",
+      "sample": 0,
+      "completion": "Answer: 121",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "r05",
+      "token_level": 256,
+      "model": "claude-sonnet-4-5-20250929",
+      "prompt_hash": "82b9a68c834e84eaabbe996c936b3874ed4c1584a83b074b6bb29082f0790b70",
+      "sample": 0,
+      "completion": "Answer: 121",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "r06",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "70b93ed6c4edeada9b9ca04a04e2e394c186bd3fc817b02ad76cf61dab8e0b5c",
+      "sample": 0,
+      "completion": "I need more time to work this out carefully without finishing",
+      "score": 0.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "r06",
+      "token_level": 256,
+      "model": "claude-sonnet-4-5-20250929",
+      "prompt_hash": "70b93ed6c4edeada9b9ca04a04e2e394c186bd3fc817b02ad76cf61dab8e0b5c",
+      "sample": 0,
+      "completion": "Answer: 72",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "r07",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "841d1fc0f7920b63bb22b6e36a728aa507f34e93132c6ea8e0b4a7592bc685c7",
+      "sample": 0,
+      "completion": "Answer: 10",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "r07",
+      "token_level": 256,
+      "model": "claude-sonnet-4-5-20250929",
+      "prompt_hash": "841d1fc0f7920b63bb22b6e36a728aa507f34e93132c6ea8e0b4a7592bc685c7",
+      "sample": 0,
+      "completion": "Answer: 10",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "r08",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "01e159ae4c44abda0e53b93b869fff1c5f862ee5b78aa13ce8341a7b8698faf4",
+      "sample": 0,
+      "completion": "I need more time to work this out carefully without finishing",
+      "score": 0.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "r08",
+      "token_level": 256,
+      "model": "claude-sonnet-4-5-20250929",
+      "prompt_hash": "01e159ae4c44abda0e53b93b869fff1c5f862ee5b78aa13ce8341a7b8698faf4",
+      "sample": 0,
+      "completion": "Answer: 30",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "r09",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "1e658b228e78eba80b3c3bec21243379fe795ac5d7f52ce634c5d3aef0569a19",
+      "sample": 0,
+      "completion": "I need more time to work this out carefully without finishing",
+      "score": 0.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "r09",
+      "token_level": 256,
+      "model": "claude-sonnet-4-5-20250929",
+      "prompt_hash": "1e658b228e78eba80b3c3bec21243379fe795ac5d7f52ce634c5d3aef0569a19",
+      "sample": 0,
+      "completion": "Answer: 624",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "r10",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "39bae0aea94fa472ef0923afb093e5c2b5b8c64453dbfa6936555120727dbd7a",
+      "sample": 0,
+      "completion": "I need more time to work this out carefully without finishing",
+      "score": 0.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "r10",
+      "token_level": 256,
+      "model": "claude-sonnet-4-5-20250929",
+      "prompt_hash": "39bae0aea94fa472ef0923afb093e5c2b5b8c64453dbfa6936555120727dbd7a",
+      "sample": 0,
+      "completion": "Answer: 170",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "r11",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "611a25cee5ee9e24ab442d27fb70397b7d649d30ca53e22b4062bbf04323ad31",
+      "sample": 0,
+      "completion": "Answer: 13",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "r11",
+      "token_level": 256,
+      "model": "claude-sonnet-4-5-20250929",
+      "prompt_hash": "611a25cee5ee9e24ab442d27fb70397b7d649d30ca53e22b4062bbf04323ad31",
+      "sample": 0,
+      "completion": "Answer: 13",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "r12",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "297eb4381b90547ead2722f4e02a25a26e2f51924b5b9812b90d980ee48392a3",
+      "sample": 0,
+      "completion": "Answer: 48",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "r12",
+      "token_level": 256,
+      "model": "claude-sonnet-4-5-20250929",
+      "prompt_hash": "297eb4381b90547ead2722f4e02a25a26e2f51924b5b9812b90d980ee48392a3",
+      "sample": 0,
+      "completion": "Answer: 48",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "r13",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "3ea1a0aab0f8da643fa1a7dafe78df6e2be82434dfc047a04c3992654ab3d0f4",
+      "sample": 0,
+      "completion": "Answer: 9",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "r13",
+      "token_level": 256,
+      "model": "claude-sonnet-4-5-20250929",
+      "prompt_hash": "3ea1a0aab0f8da643fa1a7dafe78df6e2be82434dfc047a04c3992654ab3d0f4",
+      "sample": 0,
+      "completion": "Answer: 9",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "r14",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "8ad52b70b74fa6f0cf65df783558fd0c82e648c378b4e7ff506fadffb03f907f",
+      "sample": 0,
+      "completion": "I need more time to work this out carefully without finishing",
+      "score": 0.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "r14",
+      "token_level": 256,
+      "model": "claude-sonnet-4-5-20250929",
+      "prompt_hash": "8ad52b70b74fa6f0cf65df783558fd0c82e648c378b4e7ff506fadffb03f907f",
+      "sample": 0,
+      "completion": "Answer: 5",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "r15",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "a568ecc84d2df93a2bbb673617c5b7fbb117fb4ae7d77751a2662556094d6079",
+      "sample": 0,
+      "completion": "I need more time to work this out carefully without finishing",
+      "score": 0.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "r15",
+      "token_level": 256,
+      "model": "claude-sonnet-4-5-20250929",
+      "prompt_hash": "a568ecc84d2df93a2bbb673617c5b7fbb117fb4ae7d77751a2662556094d6079",
+      "sample": 0,
+      "completion": "Answer: 5",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "r16",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "984aa0ee4010c865fc698ba6154cd9162dbd62797b811f6e6734532a06b7edca",
+      "sample": 0,
+      "completion": "I need more time to work this out carefully without finishing",
+      "score": 0.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "r16",
+      "token_level": 256,
+      "model": "claude-sonnet-4-5-20250929",
+      "prompt_hash": "984aa0ee4010c865fc698ba6154cd9162dbd62797b811f6e6734532a06b7edca",
+      "sample": 0,
+      "completion": "Answer: 160",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "r17",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "936d170bdf754b6c96fccbc3f48b19f562d580d86ee5f80fce175966c111d417",
+      "sample": 0,
+      "completion": "Answer: 63",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "r17",
+      "token_level": 256,
+      "model": "claude-sonnet-4-5-20250929",
+      "prompt_hash": "936d170bdf754b6c96fccbc3f48b19f562d580d86ee5f80fce175966c111d417",
+      "sample": 0,
+      "completion": "Answer: 63",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "r18",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "034b75b58eb3e94ab78378b3e3b9bf3772c452327e0ec216cada25b0ce4945ef",
+      "sample": 0,
+      "completion": "Answer: 30",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "r18",
+      "token_level": 256,
+      "model": "claude-sonnet-4-5-20250929",
+      "prompt_hash": "034b75b58eb3e94ab78378b3e3b9bf3772c452327e0ec216cada25b0ce4945ef",
+      "sample": 0,
+      "completion": "Answer: 30",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "r19",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "4918a9f307027692c1b6e09a100abcf1072662dc815e2de596bd3c227cac3d72",
+      "sample": 0,
+      "completion": "I need more time to work this out carefully without finishing",
+      "score": 0.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "r19",
+      "token_level": 256,
+      "model": "claude-sonnet-4-5-20250929",
+      "prompt_hash": "4918a9f307027692c1b6e09a100abcf1072662dc815e2de596bd3c227cac3d72",
+      "sample": 0,
+      "completion": "Answer: 4",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "r20",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "92e3fc58ea7e7a365d64753159d7c5acbbd5f7beb7d84ebb127938e3749e1ea1",
+      "sample": 0,
+      "completion": "I need more time to work this out carefully without finishing",
+      "score": 0.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "r20",
+      "token_level": 256,
+      "model": "claude-sonnet-4-5-20250929",
+      "prompt_hash": "92e3fc58ea7e7a365d64753159d7c5acbbd5f7beb7d84ebb127938e3749e1ea1",
+      "sample": 0,
+      "completion": "Answer: 115",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    }
+  ]
+}

@@ -1,0 +1,849 @@
+{
+  "source": "fixture",
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_template": "Answer with only the final answer. No explanation.\n\n{question}",
+  "temperature": 0.5,
+  "k": 3,
+  "entries": [
+    {
+      "question_id": "v01",
+      "token_level": 64,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "0dc18d7ef0406c29372a61981ac20455c8baddeb2a172edf96914b58574eb134",
+      "sample": 0,
+      "completion": "12",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "v01",
+      "token_level": 64,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "0dc18d7ef0406c29372a61981ac20455c8baddeb2a172edf96914b58574eb134",
+      "sample": 1,
+      "completion": "12",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "v01",
+      "token_level": 64,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "0dc18d7ef0406c29372a61981ac20455c8baddeb2a172edf96914b58574eb134",
+      "sample": 2,
+      "completion": "12",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "v01",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "0dc18d7ef0406c29372a61981ac20455c8baddeb2a172edf96914b58574eb134",
+      "sample": 0,
+      "completion": "12",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "v01",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "0dc18d7ef0406c29372a61981ac20455c8baddeb2a172edf96914b58574eb134",
+      "sample": 1,
+      "completion": "12",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "v01",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "0dc18d7ef0406c29372a61981ac20455c8baddeb2a172edf96914b58574eb134",
+      "sample": 2,
+      "completion": "12",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "v02",
+      "token_level": 64,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "364e8779e54e502e39b6f44cf2f426df643f2da21dc0adba1a25ff3030e99f02",
+      "sample": 0,
+      "completion": "72",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "v02",
+      "token_level": 64,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "364e8779e54e502e39b6f44cf2f426df643f2da21dc0adba1a25ff3030e99f02",
+      "sample": 1,
+      "completion": "72",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "v02",
+      "token_level": 64,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "364e8779e54e502e39b6f44cf2f426df643f2da21dc0adba1a25ff3030e99f02",
+      "sample": 2,
+      "completion": "72",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "v02",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "364e8779e54e502e39b6f44cf2f426df643f2da21dc0adba1a25ff3030e99f02",
+      "sample": 0,
+      "completion": "72",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "v02",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "364e8779e54e502e39b6f44cf2f426df643f2da21dc0adba1a25ff3030e99f02",
+      "sample": 1,
+      "completion": "72",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "v02",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "364e8779e54e502e39b6f44cf2f426df643f2da21dc0adba1a25ff3030e99f02",
+      "sample": 2,
+      "completion": "72",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "v03",
+      "token_level": 64,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "179ac2d1d66b28f33aa3ade2d5c9abbb1558d680588524d76fa5e99928c99449",
+      "sample": 0,
+      "completion": "63",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "v03",
+      "token_level": 64,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "179ac2d1d66b28f33aa3ade2d5c9abbb1558d680588524d76fa5e99928c99449",
+      "sample": 1,
+      "completion": "63",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "v03",
+      "token_level": 64,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "179ac2d1d66b28f33aa3ade2d5c9abbb1558d680588524d76fa5e99928c99449",
+      "sample": 2,
+      "completion": "63",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "v03",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "179ac2d1d66b28f33aa3ade2d5c9abbb1558d680588524d76fa5e99928c99449",
+      "sample": 0,
+      "completion": "63",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "v03",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "179ac2d1d66b28f33aa3ade2d5c9abbb1558d680588524d76fa5e99928c99449",
+      "sample": 1,
+      "completion": "63",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "v03",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "179ac2d1d66b28f33aa3ade2d5c9abbb1558d680588524d76fa5e99928c99449",
+      "sample": 2,
+      "completion": "63",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "v04",
+      "token_level": 64,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "5ed068aa012447bb03092f456ec172813c7e2d6142269ce55838b18c2c22e3fe",
+      "sample": 0,
+      "completion": "30",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "v04",
+      "token_level": 64,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "5ed068aa012447bb03092f456ec172813c7e2d6142269ce55838b18c2c22e3fe",
+      "sample": 1,
+      "completion": "30",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "v04",
+      "token_level": 64,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "5ed068aa012447bb03092f456ec172813c7e2d6142269ce55838b18c2c22e3fe",
+      "sample": 2,
+      "completion": "30",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "v04",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "5ed068aa012447bb03092f456ec172813c7e2d6142269ce55838b18c2c22e3fe",
+      "sample": 0,
+      "completion": "30",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "v04",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "5ed068aa012447bb03092f456ec172813c7e2d6142269ce55838b18c2c22e3fe",
+      "sample": 1,
+      "completion": "30",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "v04",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "5ed068aa012447bb03092f456ec172813c7e2d6142269ce55838b18c2c22e3fe",
+      "sample": 2,
+      "completion": "30",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "v05",
+      "token_level": 64,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "e445cb085069f4c5381426799f7df873b392c934b07617cb3e0451cf13328e72",
+      "sample": 0,
+      "completion": "12",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "v05",
+      "token_level": 64,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "e445cb085069f4c5381426799f7df873b392c934b07617cb3e0451cf13328e72",
+      "sample": 1,
+      "completion": "12",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "v05",
+      "token_level": 64,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "e445cb085069f4c5381426799f7df873b392c934b07617cb3e0451cf13328e72",
+      "sample": 2,
+      "completion": "12",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "v05",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "e445cb085069f4c5381426799f7df873b392c934b07617cb3e0451cf13328e72",
+      "sample": 0,
+      "completion": "12",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "v05",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "e445cb085069f4c5381426799f7df873b392c934b07617cb3e0451cf13328e72",
+      "sample": 1,
+      "completion": "12",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "v05",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "e445cb085069f4c5381426799f7df873b392c934b07617cb3e0451cf13328e72",
+      "sample": 2,
+      "completion": "12",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "v06",
+      "token_level": 64,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "1f0d54fb4a7dacc0dee9923f3de8ed48978ca96acabcb34bd41a079a1cc5c5b8",
+      "sample": 0,
+      "completion": "wrong",
+      "score": 0.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "v06",
+      "token_level": 64,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "1f0d54fb4a7dacc0dee9923f3de8ed48978ca96acabcb34bd41a079a1cc5c5b8",
+      "sample": 1,
+      "completion": "wrong",
+      "score": 0.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "v06",
+      "token_level": 64,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "1f0d54fb4a7dacc0dee9923f3de8ed48978ca96acabcb34bd41a079a1cc5c5b8",
+      "sample": 2,
+      "completion": "wrong",
+      "score": 0.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "v06",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "1f0d54fb4a7dacc0dee9923f3de8ed48978ca96acabcb34bd41a079a1cc5c5b8",
+      "sample": 0,
+      "completion": "34",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "v06",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "1f0d54fb4a7dacc0dee9923f3de8ed48978ca96acabcb34bd41a079a1cc5c5b8",
+      "sample": 1,
+      "completion": "34",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "v06",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "1f0d54fb4a7dacc0dee9923f3de8ed48978ca96acabcb34bd41a079a1cc5c5b8",
+      "sample": 2,
+      "completion": "34",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "v07",
+      "token_level": 64,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "270137184e8aa146056af3b3a94d2dccd599debf55c22b20b7de89f9e8b5551d",
+      "sample": 0,
+      "completion": "wrong",
+      "score": 0.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "v07",
+      "token_level": 64,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "270137184e8aa146056af3b3a94d2dccd599debf55c22b20b7de89f9e8b5551d",
+      "sample": 1,
+      "completion": "wrong",
+      "score": 0.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "v07",
+      "token_level": 64,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "270137184e8aa146056af3b3a94d2dccd599debf55c22b20b7de89f9e8b5551d",
+      "sample": 2,
+      "completion": "wrong",
+      "score": 0.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "v07",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "270137184e8aa146056af3b3a94d2dccd599debf55c22b20b7de89f9e8b5551d",
+      "sample": 0,
+      "completion": "5",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "v07",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "270137184e8aa146056af3b3a94d2dccd599debf55c22b20b7de89f9e8b5551d",
+      "sample": 1,
+      "completion": "5",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "v07",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "270137184e8aa146056af3b3a94d2dccd599debf55c22b20b7de89f9e8b5551d",
+      "sample": 2,
+      "completion": "5",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "v08",
+      "token_level": 64,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "f277d0295e77210e69679c5724d83a883fa1fa6c89fe885abba11ea652cfdb47",
+      "sample": 0,
+      "completion": "wrong",
+      "score": 0.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "v08",
+      "token_level": 64,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "f277d0295e77210e69679c5724d83a883fa1fa6c89fe885abba11ea652cfdb47",
+      "sample": 1,
+      "completion": "wrong",
+      "score": 0.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "v08",
+      "token_level": 64,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "f277d0295e77210e69679c5724d83a883fa1fa6c89fe885abba11ea652cfdb47",
+      "sample": 2,
+      "completion": "wrong",
+      "score": 0.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "v08",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "f277d0295e77210e69679c5724d83a883fa1fa6c89fe885abba11ea652cfdb47",
+      "sample": 0,
+      "completion": "58",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "v08",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "f277d0295e77210e69679c5724d83a883fa1fa6c89fe885abba11ea652cfdb47",
+      "sample": 1,
+      "completion": "58",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "v08",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "f277d0295e77210e69679c5724d83a883fa1fa6c89fe885abba11ea652cfdb47",
+      "sample": 2,
+      "completion": "58",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "v09",
+      "token_level": 64,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "2ded978f9b1bb1451c8b2f3caf44d3488b629c50b96650d2eae9dde83fc0d6d5",
+      "sample": 0,
+      "completion": "wrong",
+      "score": 0.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "v09",
+      "token_level": 64,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "2ded978f9b1bb1451c8b2f3caf44d3488b629c50b96650d2eae9dde83fc0d6d5",
+      "sample": 1,
+      "completion": "wrong",
+      "score": 0.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "v09",
+      "token_level": 64,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "2ded978f9b1bb1451c8b2f3caf44d3488b629c50b96650d2eae9dde83fc0d6d5",
+      "sample": 2,
+      "completion": "wrong",
+      "score": 0.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "v09",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "2ded978f9b1bb1451c8b2f3caf44d3488b629c50b96650d2eae9dde83fc0d6d5",
+      "sample": 0,
+      "completion": "2",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "v09",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "2ded978f9b1bb1451c8b2f3caf44d3488b629c50b96650d2eae9dde83fc0d6d5",
+      "sample": 1,
+      "completion": "2",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "v09",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "2ded978f9b1bb1451c8b2f3caf44d3488b629c50b96650d2eae9dde83fc0d6d5",
+      "sample": 2,
+      "completion": "2",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "v10",
+      "token_level": 64,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "768887485f05cf37d99cc10355caa70d5fb9464f18e40dc0442cf7580da535f4",
+      "sample": 0,
+      "completion": "wrong",
+      "score": 0.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "v10",
+      "token_level": 64,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "768887485f05cf37d99cc10355caa70d5fb9464f18e40dc0442cf7580da535f4",
+      "sample": 1,
+      "completion": "wrong",
+      "score": 0.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "v10",
+      "token_level": 64,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "768887485f05cf37d99cc10355caa70d5fb9464f18e40dc0442cf7580da535f4",
+      "sample": 2,
+      "completion": "wrong",
+      "score": 0.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "v10",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "768887485f05cf37d99cc10355caa70d5fb9464f18e40dc0442cf7580da535f4",
+      "sample": 0,
+      "completion": "15",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "v10",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "768887485f05cf37d99cc10355caa70d5fb9464f18e40dc0442cf7580da535f4",
+      "sample": 1,
+      "completion": "15",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    },
+    {
+      "question_id": "v10",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "768887485f05cf37d99cc10355caa70d5fb9464f18e40dc0442cf7580da535f4",
+      "sample": 2,
+      "completion": "15",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 1,
+        "completion_tokens": 1,
+        "total_tokens": 2
+      }
+    }
+  ]
+}

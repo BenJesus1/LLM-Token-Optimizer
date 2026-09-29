@@ -52,7 +52,8 @@ def _greedy_step(task: Task, current: int, remaining: int) -> tuple[float, int]:
     """Density and token delta of the best greedy increment for ``task``.
 
     Diminishing curves take one token. Constant (0/1 step) curves jump to the
-    cap in one shot, because unit steps in between have zero gain.
+    cap in one shot, because unit steps in between have zero gain. Table
+    (cached live) curves jump to the next ladder level with positive gain.
     """
 
     if remaining <= 0 or current >= task.token_cost:
@@ -60,6 +61,17 @@ def _greedy_step(task: Task, current: int, remaining: int) -> tuple[float, int]:
     if task.curve == "constant":
         need = task.token_cost - current
         if need <= remaining and need > 0:
+            gain = task.value_at(current + need) - task.value_at(current)
+            if gain > 0:
+                return (gain / need, need)
+        return (-1.0, 0)
+    if task.curve == "table":
+        for level, _score in task.value_table:
+            if level <= current:
+                continue
+            need = level - current
+            if need > remaining or need <= 0:
+                continue
             gain = task.value_at(current + need) - task.value_at(current)
             if gain > 0:
                 return (gain / need, need)

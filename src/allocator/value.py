@@ -1,4 +1,4 @@
-"""Simulated per-task value curves. No live LLM API calls."""
+"""Value curves: simulated log/sqrt/constant plus cached live tables."""
 
 from __future__ import annotations
 
@@ -30,10 +30,18 @@ def constant_curve(tokens: int, weight: float) -> float:
     return float(weight) if tokens > 0 else 0.0
 
 
+def table_curve(tokens: int, weight: float) -> float:
+    """Placeholder. ``Task.value_at`` reads ``value_table`` for ``curve='table'``."""
+
+    del tokens, weight
+    return 0.0
+
+
 CURVES: dict[str, ValueFn] = {
     "log": log_curve,
     "sqrt": sqrt_curve,
     "constant": constant_curve,
+    "table": table_curve,
 }
 
 

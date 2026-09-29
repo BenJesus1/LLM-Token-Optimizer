@@ -1,0 +1,35 @@
+{
+  "source": "live",
+  "model": "claude-haiku-4-5-20251001",
+  "questions": "benchmarks/live/questions_leetcode.json",
+  "cache": "benchmarks/live/cache_leetcode.json",
+  "n": 20,
+  "k": 1,
+  "token_levels": [64, 128, 256, 512],
+  "never_scored": ["lc10"],
+  "never_scored_note": "lc10 Plus One: model returned [1, 2, 4] at every level; gold was 124 so last-number exact-match scored 0",
+  "first_success_at_64": 19,
+  "first_success_later": [],
+  "note": "Easy LeetCode instances, numeric golds; one completion per (question, level); DP exact on this cache only",
+  "conclusion": "On this Easy LeetCode Haiku cache, greedy matches DP at B=2560 (19/19, spend 1216 vs random 2560) and at B=640 (10/10 vs random 0). Ceiling is 19; extra max_tokens did not unlock lc10.",
+  "runs": [
+    {
+      "budget": 2560,
+      "command": "python -m benchmarks.live_replay --questions benchmarks/live/questions_leetcode.json --cache benchmarks/live/cache_leetcode.json --out benchmarks/live/leetcode_results_b2560.json",
+      "rows": [
+        {"solver": "dp", "total_value": 19.0, "total_cost": 1216},
+        {"solver": "greedy", "total_value": 19.0, "total_cost": 1216},
+        {"solver": "random", "total_value": 19.0, "total_cost": 2560}
+      ]
+    },
+    {
+      "budget": 640,
+      "command": "python -m benchmarks.live_replay --questions benchmarks/live/questions_leetcode.json --cache benchmarks/live/cache_leetcode.json --budget 640 --out benchmarks/live/leetcode_results_b640.json",
+      "rows": [
+        {"solver": "dp", "total_value": 10.0, "total_cost": 640},
+        {"solver": "greedy", "total_value": 10.0, "total_cost": 640},
+        {"solver": "random", "total_value": 0.0, "total_cost": 640}
+      ]
+    }
+  ]
+}

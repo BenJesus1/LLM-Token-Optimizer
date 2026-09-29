@@ -1,0 +1,31 @@
+{
+  "source": "live",
+  "model": "claude-haiku-4-5-20251001",
+  "cache": "benchmarks/live/cache.json",
+  "n": 20,
+  "k": 1,
+  "token_levels": [64, 128, 256, 512],
+  "never_scored": ["q08", "q15", "q20"],
+  "first_success_at_64": 17,
+  "note": "one completion per (question, level); exact-match 0/1; DP exact on this cache only",
+  "conclusion": "On this Haiku cache, greedy matches DP at B=2560 (17/17, spend 1088 vs random 2560) and at B=640 (10/10 vs random 0). Ceiling is 17; scarcity is where random fails.",
+  "runs": [
+    {
+      "budget": 2560,
+      "rows": [
+        {"solver": "dp", "total_value": 17.0, "total_cost": 1088},
+        {"solver": "greedy", "total_value": 17.0, "total_cost": 1088},
+        {"solver": "random", "total_value": 17.0, "total_cost": 2560}
+      ]
+    },
+    {
+      "budget": 640,
+      "command": "python -m benchmarks.live_replay --cache benchmarks/live/cache.json --budget 640",
+      "rows": [
+        {"solver": "dp", "total_value": 10.0, "total_cost": 640},
+        {"solver": "greedy", "total_value": 10.0, "total_cost": 640},
+        {"solver": "random", "total_value": 0.0, "total_cost": 640}
+      ]
+    }
+  ]
+}

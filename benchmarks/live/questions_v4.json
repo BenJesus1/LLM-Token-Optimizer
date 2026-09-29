@@ -1,0 +1,12 @@
+[
+  {"id": "v01", "question": "What is 7 + 5?", "gold": "12"},
+  {"id": "v02", "question": "What is 9 * 8?", "gold": "72"},
+  {"id": "v03", "question": "What is 100 - 37?", "gold": "63"},
+  {"id": "v04", "question": "What is 15% of 200?", "gold": "30"},
+  {"id": "v05", "question": "What is 3 + 3 * 3?", "gold": "12"},
+  {"id": "v06", "question": "LeetCode 70 Climbing Stairs. n = 8. You may climb 1 or 2 steps. How many distinct ways can you climb to the top?", "gold": "34"},
+  {"id": "v07", "question": "LeetCode 121 Best Time to Buy and Sell Stock. prices = [7, 1, 5, 3, 6, 4]. Return the maximum profit from one buy and one later sell (0 if no profit).", "gold": "5"},
+  {"id": "v08", "question": "LeetCode 13 Roman to Integer. Convert the Roman numeral LVIII to an integer.", "gold": "58"},
+  {"id": "v09", "question": "LeetCode 69 Sqrt(x). Return the integer square root of x = 8 (truncate toward zero).", "gold": "2"},
+  {"id": "v10", "question": "LeetCode 746 Min Cost Climbing Stairs. cost = [10, 15, 20]. You can start at index 0 or 1 and pay cost[i] to step 1 or 2 from i. Return the minimum cost to reach the top.", "gold": "15"}
+]

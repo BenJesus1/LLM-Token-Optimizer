@@ -1,0 +1,93 @@
+{
+  "source": "cache",
+  "model": "claude-haiku-4-5-20251001",
+  "n": 10,
+  "n_train": 6,
+  "n_test": 4,
+  "test_ids": [
+    "h08",
+    "h10",
+    "h06",
+    "h02"
+  ],
+  "train_ids": [
+    "h01",
+    "h07",
+    "h03",
+    "h04",
+    "h09",
+    "h05"
+  ],
+  "budget": 4,
+  "seed": 2026,
+  "k": 3,
+  "token_levels": [
+    64,
+    256
+  ],
+  "note": "predicted policies are scored on realized k=3 envelopes; DP is exact on predictions, not on the next API call",
+  "predicted_dp_beats_uniform_64": false,
+  "rows": [
+    {
+      "policy": "oracle_dp",
+      "realized_value": 1.0,
+      "cost_units": 4
+    },
+    {
+      "policy": "oracle_greedy",
+      "realized_value": 1.0,
+      "cost_units": 1
+    },
+    {
+      "policy": "oracle_random",
+      "realized_value": 0.0,
+      "cost_units": 4
+    },
+    {
+      "policy": "predicted_dp",
+      "realized_value": 0.0,
+      "cost_units": 4
+    },
+    {
+      "policy": "predicted_greedy",
+      "realized_value": 1.0,
+      "cost_units": 4
+    },
+    {
+      "policy": "uniform_64",
+      "realized_value": 1.0,
+      "cost_units": 4
+    },
+    {
+      "policy": "uniform_256",
+      "realized_value": 0.0,
+      "cost_units": 4
+    }
+  ],
+  "roundtrip": [
+    {
+      "id": "h08",
+      "predicted_value_at_assignment": 1.0,
+      "realized_value_at_assignment": 0.0,
+      "cost_units": 4
+    },
+    {
+      "id": "h10",
+      "predicted_value_at_assignment": 0.0,
+      "realized_value_at_assignment": 0.0,
+      "cost_units": 0
+    },
+    {
+      "id": "h06",
+      "predicted_value_at_assignment": 0.0,
+      "realized_value_at_assignment": 0.0,
+      "cost_units": 0
+    },
+    {
+      "id": "h02",
+      "predicted_value_at_assignment": 0.0,
+      "realized_value_at_assignment": 0.0,
+      "cost_units": 0
+    }
+  ]
+}

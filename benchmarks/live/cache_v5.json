@@ -1,0 +1,532 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_template": "Solve step by step. Write every calculation. Do not put the final answer until the last line. On the last line write: Answer: <number>\n\n{question}",
+  "entries": [
+    {
+      "question_id": "r01",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "de9627d66dd212bd770a0891c9c0dbd5a36eb732c69c890915b01b9a8d154cd9",
+      "completion": "Step 1: Identify the numbers to add\n7 + 5\n\nStep 2: Add the numbers together\n7 + 5 = 12\n\nAnswer: 12",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 49,
+        "completion_tokens": 43,
+        "total_tokens": 92
+      }
+    },
+    {
+      "question_id": "r02",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "e901cf046e9064f39f201a95912cb4f82ffb74602d4b5069b481351817311d07",
+      "completion": "Step 1: Multiply 9 by 8\n9 * 8 = 72\n\nAnswer: 72",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 49,
+        "completion_tokens": 30,
+        "total_tokens": 79
+      }
+    },
+    {
+      "question_id": "r03",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "1efbe8c9d5a6d65e18af4486ad9930bc51d078d1a91cc4b88d7d5a0e83f3a617",
+      "completion": "Step 1: Set up the subtraction problem\n100 - 37\n\nStep 2: Break down the subtraction\n100 - 37 = 100 - 30 - 7\n\nStep 3: Subtract 30 from 100\n100 - 30 = 70\n\nStep 4: Subtract 7 from the result\n70 - 7 = 63\n\nAnswer: 63",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 49,
+        "completion_tokens": 98,
+        "total_tokens": 147
+      }
+    },
+    {
+      "question_id": "r04",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "d4a217c51d6fe1417380b1ff4c865cbbdfe71a53f0e97498639cb90e80fbfb31",
+      "completion": "Step 1: Convert the percentage to a decimal.\n15% = 15/100 = 0.15\n\nStep 2: Multiply the decimal by the number.\n0.15 \u00d7 200 = 30\n\nAnswer: 30",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 49,
+        "completion_tokens": 58,
+        "total_tokens": 107
+      }
+    },
+    {
+      "question_id": "r05",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "82b9a68c834e84eaabbe996c936b3874ed4c1584a83b074b6bb29082f0790b70",
+      "completion": "Step 1: Set up the multiplication problem\n11 * 11\n\nStep 2: Break down 11 * 11 using the distributive property\n11 * 11 = (10 + 1) * (10 + 1)\n\nStep 3: Expand using FOIL (First, Outer, Inner, Last)\n= (10 * 10) + (10 * 1) + (1 * 10) + (1 * 1)\n\nStep 4: Calculate each term\n10 * 10 = 100\n10 * 1 = 10\n1 * 10 = 10\n1 * 1 = 1\n\nStep 5: Add all terms together\n100 + 10 + 10 + 1 = 121\n\nAnswer: 121",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 49,
+        "completion_tokens": 194,
+        "total_tokens": 243
+      }
+    },
+    {
+      "question_id": "r06",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "70b93ed6c4edeada9b9ca04a04e2e394c186bd3fc817b02ad76cf61dab8e0b5c",
+      "completion": "Step 1: Find how many clips Natalia sold in April.\nClips sold in April = 48\n\nStep 2: Find how many clips Natalia sold in May.\nIn May, she sold half as many clips as in April.\nClips sold in May = 48 \u00f7 2 = 24\n\nStep 3: Find the total clips sold in April and May.\nTotal clips = Clips in April + Clips in May\nTotal clips = 48 + 24 = 72\n\nAnswer: 72",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 80,
+        "completion_tokens": 124,
+        "total_tokens": 204
+      }
+    },
+    {
+      "question_id": "r07",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "841d1fc0f7920b63bb22b6e36a728aa507f34e93132c6ea8e0b4a7592bc685c7",
+      "completion": "Step 1: Identify the hourly rate.\nWeng earns $12 per hour.\n\nStep 2: Identify the time worked.\nWeng worked for 50 minutes.\n\nStep 3: Convert minutes to hours.\n50 minutes \u00f7 60 minutes per hour = 50/60 hours\n50/60 = 5/6 hours\n\nStep 4: Calculate earnings.\nEarnings = Hourly rate \u00d7 Hours worked\nEarnings = $12 \u00d7 5/6\nEarnings = $12 \u00d7 5 \u00f7 6\nEarnings = $60 \u00f7 6\nEarnings = $10\n\nAnswer: $10",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 74,
+        "completion_tokens": 163,
+        "total_tokens": 237
+      }
+    },
+    {
+      "question_id": "r08",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "01e159ae4c44abda0e53b93b869fff1c5f862ee5b78aa13ce8341a7b8698faf4",
+      "completion": "Step 1: Find how much money Betty needs in total.\nThe wallet costs $100.\n\nStep 2: Find how much money Betty has initially (before parents and brother give her anything).\nBetty has only half of the money she needs.\nMoney Betty has initially = $100 \u00f7 2 = $50\n\nStep 3: Verify this is correct by checking if the total works out.\nBetty starts with: $50\nParents give her: $15\nBrother gives her: $5\nTotal: $50 + $15 + $5 = $70\n\nNote: The problem states she needs $5 more from her brother, which means after her parents give her $15, she still needs $5 more. Let me verify:\n$50 + $15 = $65\nShe needs $100, so she still needs: $100 - $65 = $35 more\n\nActually, re-reading the problem: \"she needs $5 more from her brother\" - this tells us the brother gives her $5, but this doesn't fully complete the $100. However, the question only asks how much money Betty has BEFORE her parents and",
+      "score": 0.0,
+      "usage": {
+        "prompt_tokens": 97,
+        "completion_tokens": 256,
+        "total_tokens": 353
+      }
+    },
+    {
+      "question_id": "r09",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "1e658b228e78eba80b3c3bec21243379fe795ac5d7f52ce634c5d3aef0569a19",
+      "completion": "# Step-by-step solution\n\n**Step 1: Calculate pages written per letter**\n- Pages per letter = 3 pages\n- Number of friends = 2\n- Pages written per time = 3 pages \u00d7 2 friends = 6 pages\n\n**Step 2: Calculate pages written per week**\n- Times per week = 2\n- Pages per week = 6 pages \u00d7 2 = 12 pages\n\n**Step 3: Calculate pages written per year**\n- Weeks per year = 52 weeks\n- Pages per year = 12 pages \u00d7 52 weeks = 624 pages\n\nAnswer: 624",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 68,
+        "completion_tokens": 148,
+        "total_tokens": 216
+      }
+    },
+    {
+      "question_id": "r10",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "39bae0aea94fa472ef0923afb093e5c2b5b8c64453dbfa6936555120727dbd7a",
+      "completion": "Step 1: Find the cost of the blender.\nThe blender costs $15 more than the toaster.\nToaster cost = $22\nBlender cost = $22 + $15 = $37\n\nStep 2: Find the cost of the microwave.\nThe microwave costs 3 times as much as the blender.\nBlender cost = $37\nMicrowave cost = 3 \u00d7 $37 = $111\n\nStep 3: Find the total cost of all three appliances.\nToaster cost = $22\nBlender cost = $37\nMicrowave cost = $111\nTotal cost = $22 + $37 + $111 = $170\n\nAnswer: 170",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 86,
+        "completion_tokens": 168,
+        "total_tokens": 254
+      }
+    },
+    {
+      "question_id": "r11",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "611a25cee5ee9e24ab442d27fb70397b7d649d30ca53e22b4062bbf04323ad31",
+      "completion": "Step 1: Add the two numbers together.\n6 + 7 = 13\n\nAnswer: 13",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 49,
+        "completion_tokens": 28,
+        "total_tokens": 77
+      }
+    },
+    {
+      "question_id": "r12",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "297eb4381b90547ead2722f4e02a25a26e2f51924b5b9812b90d980ee48392a3",
+      "completion": "Step 1: Multiply 4 by 12\n4 * 12 = 4 * (10 + 2)\n\nStep 2: Distribute the multiplication\n4 * 10 = 40\n4 * 2 = 8\n\nStep 3: Add the results\n40 + 8 = 48\n\nAnswer: 48",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 49,
+        "completion_tokens": 86,
+        "total_tokens": 135
+      }
+    },
+    {
+      "question_id": "r13",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "3ea1a0aab0f8da643fa1a7dafe78df6e2be82434dfc047a04c3992654ab3d0f4",
+      "completion": "Step 1: Set up the division problem.\n81 \u00f7 9\n\nStep 2: Find how many times 9 goes into 81.\n9 \u00d7 1 = 9\n9 \u00d7 2 = 18\n9 \u00d7 3 = 27\n9 \u00d7 4 = 36\n9 \u00d7 5 = 45\n9 \u00d7 6 = 54\n9 \u00d7 7 = 63\n9 \u00d7 8 = 72\n9 \u00d7 9 = 81\n\nStep 3: Identify the result.\n9 \u00d7 9 = 81, so 81 \u00f7 9 = 9\n\nAnswer: 9",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 50,
+        "completion_tokens": 169,
+        "total_tokens": 219
+      }
+    },
+    {
+      "question_id": "r14",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "8ad52b70b74fa6f0cf65df783558fd0c82e648c378b4e7ff506fadffb03f907f",
+      "completion": "Step 1: Calculate the total number of cookies baked.\n4 trays \u00d7 12 cookies per tray = 48 cookies\n\nStep 2: Calculate how many cookies remain after the baker eats some.\n48 cookies - 8 cookies = 40 cookies\n\nStep 3: Calculate how many boxes are needed to pack 40 cookies into boxes of 8.\n40 cookies \u00f7 8 cookies per box = 5 boxes\n\nAnswer: 5",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 80,
+        "completion_tokens": 112,
+        "total_tokens": 192
+      }
+    },
+    {
+      "question_id": "r15",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "a568ecc84d2df93a2bbb673617c5b7fbb117fb4ae7d77751a2662556094d6079",
+      "completion": "Step 1: Calculate the total number of apples Tom has.\n3 bags \u00d7 8 apples per bag = 24 apples\n\nStep 2: Calculate how many apples remain after giving some to friends.\n24 apples - 4 apples = 20 apples\n\nStep 3: Divide the remaining apples equally among 4 people.\n20 apples \u00f7 4 people = 5 apples per person\n\nAnswer: 5",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 84,
+        "completion_tokens": 113,
+        "total_tokens": 197
+      }
+    },
+    {
+      "question_id": "r16",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "984aa0ee4010c865fc698ba6154cd9162dbd62797b811f6e6734532a06b7edca",
+      "completion": "# Step-by-step solution\n\n**Step 1: Find the speed of the car**\n\nSpeed = Distance \u00f7 Time\n\nSpeed = 60 miles \u00f7 1.5 hours\n\nSpeed = 40 miles per hour\n\n**Step 2: Calculate distance traveled in 4 hours**\n\nDistance = Speed \u00d7 Time\n\nDistance = 40 miles per hour \u00d7 4 hours\n\nDistance = 160 miles\n\nAnswer: 160",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 75,
+        "completion_tokens": 105,
+        "total_tokens": 180
+      }
+    },
+    {
+      "question_id": "r17",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "936d170bdf754b6c96fccbc3f48b19f562d580d86ee5f80fce175966c111d417",
+      "completion": "Step 1: Calculate the total number of students.\nTotal students = 3 classes \u00d7 24 students per class\nTotal students = 3 \u00d7 24 = 72 students\n\nStep 2: Calculate how many students are absent.\nAbsent students = 1/8 of total students\nAbsent students = 1/8 \u00d7 72\nAbsent students = 72 \u00f7 8 = 9 students\n\nStep 3: Calculate how many students are present.\nPresent students = Total students - Absent students\nPresent students = 72 - 9 = 63 students\n\nAnswer: 63",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 66,
+        "completion_tokens": 146,
+        "total_tokens": 212
+      }
+    },
+    {
+      "question_id": "r18",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "034b75b58eb3e94ab78378b3e3b9bf3772c452327e0ec216cada25b0ce4945ef",
+      "completion": "Step 1: Find the discount amount.\nDiscount = 25% of $40\nDiscount = 0.25 \u00d7 $40\nDiscount = $10\n\nStep 2: Subtract the discount from the original price.\nSale price = Original price - Discount\nSale price = $40 - $10\nSale price = $30\n\nAnswer: 30",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 65,
+        "completion_tokens": 84,
+        "total_tokens": 149
+      }
+    },
+    {
+      "question_id": "r19",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "4918a9f307027692c1b6e09a100abcf1072662dc815e2de596bd3c227cac3d72",
+      "completion": "# Solving the Fence Painting Problem\n\n**Step 1: Find the total amount of work (in worker-days)**\n\nIf 5 workers paint a fence in 8 days, the total work is:\n- Total work = 5 workers \u00d7 8 days = 40 worker-days\n\n**Step 2: Find how many days 10 workers need**\n\nIf 10 workers work at the same constant rate, we need to find how many days (d) it takes:\n- 10 workers \u00d7 d days = 40 worker-days\n- d = 40 worker-days \u00f7 10 workers\n- d = 4 days\n\n**Step 3: Verify the answer**\n\n- 5 workers \u00d7 8 days = 40 worker-days of work\n- 10 workers \u00d7 4 days = 40 worker-days of work \u2713\n\nAnswer: 4",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 71,
+        "completion_tokens": 214,
+        "total_tokens": 285
+      }
+    },
+    {
+      "question_id": "r20",
+      "token_level": 256,
+      "model": "claude-haiku-4-5-20251001",
+      "prompt_hash": "92e3fc58ea7e7a365d64753159d7c5acbbd5f7beb7d84ebb127938e3749e1ea1",
+      "completion": "Step 1: Calculate units sold in the first 3 days.\nUnits sold per day = 15\nNumber of days = 3\nTotal units sold = 15 \u00d7 3 = 45 units\n\nStep 2: Calculate units remaining after the sales.\nStarting units = 120\nUnits sold = 45\nUnits remaining = 120 - 45 = 75 units\n\nStep 3: Calculate units after restocking.\nUnits before restock = 75\nUnits restocked = 40\nTotal units = 75 + 40 = 115 units\n\nAnswer: 115",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 77,
+        "completion_tokens": 137,
+        "total_tokens": 214
+      }
+    },
+    {
+      "question_id": "r01",
+      "token_level": 256,
+      "model": "claude-sonnet-4-5-20250929",
+      "prompt_hash": "de9627d66dd212bd770a0891c9c0dbd5a36eb732c69c890915b01b9a8d154cd9",
+      "completion": "I need to add 7 + 5.\n\nStarting with 7, I will add 5 to it:\n\n7 + 5 = 12\n\nAnswer: 12",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 49,
+        "completion_tokens": 44,
+        "total_tokens": 93
+      }
+    },
+    {
+      "question_id": "r02",
+      "token_level": 256,
+      "model": "claude-sonnet-4-5-20250929",
+      "prompt_hash": "e901cf046e9064f39f201a95912cb4f82ffb74602d4b5069b481351817311d07",
+      "completion": "I need to calculate 9 * 8.\n\nThis means I need to add 9 eight times, or add 8 nine times.\n\nLet me multiply:\n9 * 8 = 72\n\nAnswer: 72",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 49,
+        "completion_tokens": 55,
+        "total_tokens": 104
+      }
+    },
+    {
+      "question_id": "r03",
+      "token_level": 256,
+      "model": "claude-sonnet-4-5-20250929",
+      "prompt_hash": "1efbe8c9d5a6d65e18af4486ad9930bc51d078d1a91cc4b88d7d5a0e83f3a617",
+      "completion": "I need to calculate 100 - 37.\n\nLet me break this down step by step:\n\n100 - 37\n\nI can think of this as:\n100 - 30 - 7\n\nFirst: 100 - 30 = 70\nSecond: 70 - 7 = 63\n\nAlternatively, I can use the standard subtraction method:\n```\n  100\n-  37\n----\n```\n\nStarting from the ones place:\n- 0 - 7: I can't do this, so I need to borrow from the tens place\n- The tens place has 0, so I need to borrow from the hundreds place\n- Borrow 1 from hundreds: 100 becomes 0 hundreds, 10 tens, 0 ones\n- Now borrow 1 from the tens: 10 tens becomes 9 tens, and 0 ones becomes 10 ones\n- So now I have: 0 hundreds, 9 tens, 10 ones\n\nNow I can subtract:\n- Ones place: 10 - 7 = 3\n- Tens",
+      "score": 0.0,
+      "usage": {
+        "prompt_tokens": 49,
+        "completion_tokens": 256,
+        "total_tokens": 305
+      }
+    },
+    {
+      "question_id": "r04",
+      "token_level": 256,
+      "model": "claude-sonnet-4-5-20250929",
+      "prompt_hash": "d4a217c51d6fe1417380b1ff4c865cbbdfe71a53f0e97498639cb90e80fbfb31",
+      "completion": "I need to find 15% of 200.\n\nTo find a percentage of a number, I multiply the number by the percentage divided by 100.\n\n15% of 200 = 200 \u00d7 (15/100)\n\nFirst, I'll calculate 15/100:\n15/100 = 0.15\n\nNow I'll multiply 200 by 0.15:\n200 \u00d7 0.15 = 30\n\nAnswer: 30",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 49,
+        "completion_tokens": 104,
+        "total_tokens": 153
+      }
+    },
+    {
+      "question_id": "r05",
+      "token_level": 256,
+      "model": "claude-sonnet-4-5-20250929",
+      "prompt_hash": "82b9a68c834e84eaabbe996c936b3874ed4c1584a83b074b6bb29082f0790b70",
+      "completion": "I need to calculate 11 * 11.\n\nI'll multiply 11 by 11:\n\n11 * 11 = 11 * (10 + 1)\n11 * 11 = (11 * 10) + (11 * 1)\n11 * 11 = 110 + 11\n11 * 11 = 121\n\nAnswer: 121",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 49,
+        "completion_tokens": 96,
+        "total_tokens": 145
+      }
+    },
+    {
+      "question_id": "r06",
+      "token_level": 256,
+      "model": "claude-sonnet-4-5-20250929",
+      "prompt_hash": "70b93ed6c4edeada9b9ca04a04e2e394c186bd3fc817b02ad76cf61dab8e0b5c",
+      "completion": "I need to find the total number of clips Natalia sold in April and May.\n\n**Step 1: Find the number of clips sold in April**\nClips sold in April = 48\n\n**Step 2: Find the number of clips sold in May**\nMay sales = half of April sales\nMay sales = 48 \u00f7 2\nMay sales = 24\n\n**Step 3: Find the total clips sold in both months**\nTotal clips = April sales + May sales\nTotal clips = 48 + 24\nTotal clips = 72\n\nAnswer: 72",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 80,
+        "completion_tokens": 132,
+        "total_tokens": 212
+      }
+    },
+    {
+      "question_id": "r07",
+      "token_level": 256,
+      "model": "claude-sonnet-4-5-20250929",
+      "prompt_hash": "841d1fc0f7920b63bb22b6e36a728aa507f34e93132c6ea8e0b4a7592bc685c7",
+      "completion": "I need to find how much Weng earned for 50 minutes of babysitting when she earns $12 per hour.\n\n**Step 1: Convert minutes to hours**\n50 minutes \u00f7 60 minutes per hour = 50/60 hours\n\n**Step 2: Simplify the fraction**\n50/60 = 5/6 hours\n\n**Step 3: Calculate earnings**\nEarnings = hourly rate \u00d7 hours worked\nEarnings = $12 \u00d7 5/6\n\n**Step 4: Perform the multiplication**\nEarnings = (12 \u00d7 5)/6\nEarnings = 60/6\nEarnings = $10\n\nAnswer: 10",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 74,
+        "completion_tokens": 161,
+        "total_tokens": 235
+      }
+    },
+    {
+      "question_id": "r08",
+      "token_level": 256,
+      "model": "claude-sonnet-4-5-20250929",
+      "prompt_hash": "01e159ae4c44abda0e53b93b869fff1c5f862ee5b78aa13ce8341a7b8698faf4",
+      "completion": "I need to find how much money Betty has before her parents and brother give her anything.\n\nLet me denote the amount Betty has initially as x.\n\n**Step 1: Understand what happens**\n- Betty starts with x dollars\n- Her parents give her $15\n- Her brother gives her $5\n- After all this, she has enough for the $100 wallet\n\n**Step 2: Write the equation**\nx + $15 + $5 = $100\n\n**Step 3: Simplify the left side**\nx + $20 = $100\n\n**Step 4: Solve for x**\nx = $100 - $20\nx = $80\n\n**Step 5: Verify this matches \"Betty has only half of the money she needs\"**\nHalf of $100 = $100 \u00f7 2 = $50\n\nWait, let me reconsider. The problem says \"Betty has only half of the money she needs.\" This means initially she has $50.\n\nLet me verify:\n- Betty starts with: $50\n- Parents give her: $15\n- Brother gives her: $5\n- Total:",
+      "score": 0.0,
+      "usage": {
+        "prompt_tokens": 97,
+        "completion_tokens": 256,
+        "total_tokens": 353
+      }
+    },
+    {
+      "question_id": "r09",
+      "token_level": 256,
+      "model": "claude-sonnet-4-5-20250929",
+      "prompt_hash": "1e658b228e78eba80b3c3bec21243379fe795ac5d7f52ce634c5d3aef0569a19",
+      "completion": "I need to find how many pages James writes in a year.\n\nLet me break down the information:\n- Pages per letter: 3\n- Number of friends: 2\n- Times per week: 2\n- Number of weeks in a year: 52\n\nStep 1: Calculate pages per letter to one friend.\nPages per letter = 3\n\nStep 2: Calculate number of letters written per week.\nHe writes to 2 friends, twice a week.\nLetters per week = 2 friends \u00d7 2 times per week\nLetters per week = 4\n\nStep 3: Calculate pages written per week.\nPages per week = Letters per week \u00d7 Pages per letter\nPages per week = 4 \u00d7 3\nPages per week = 12\n\nStep 4: Calculate pages written in a year.\nPages per year = Pages per week \u00d7 Weeks per year\nPages per year = 12 \u00d7 52\nPages per year = 624\n\nAnswer: 624",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 68,
+        "completion_tokens": 217,
+        "total_tokens": 285
+      }
+    },
+    {
+      "question_id": "r10",
+      "token_level": 256,
+      "model": "claude-sonnet-4-5-20250929",
+      "prompt_hash": "39bae0aea94fa472ef0923afb093e5c2b5b8c64453dbfa6936555120727dbd7a",
+      "completion": "I need to find the cost of each appliance, then add them together.\n\n**Step 1: Find the cost of the toaster**\nToaster = $22\n\n**Step 2: Find the cost of the blender**\nThe blender costs $15 more than the toaster\nBlender = Toaster + $15\nBlender = $22 + $15\nBlender = $37\n\n**Step 3: Find the cost of the microwave**\nThe microwave costs 3 times as much as the blender\nMicrowave = 3 \u00d7 Blender\nMicrowave = 3 \u00d7 $37\nMicrowave = $111\n\n**Step 4: Find the total cost of all three appliances**\nTotal = Toaster + Blender + Microwave\nTotal = $22 + $37 + $111\nTotal = $59 + $111\nTotal = $170\n\nAnswer: 170",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 86,
+        "completion_tokens": 217,
+        "total_tokens": 303
+      }
+    },
+    {
+      "question_id": "r11",
+      "token_level": 256,
+      "model": "claude-sonnet-4-5-20250929",
+      "prompt_hash": "611a25cee5ee9e24ab442d27fb70397b7d649d30ca53e22b4062bbf04323ad31",
+      "completion": "I need to add 6 + 7.\n\nStarting with 6, I will add 7 to it:\n6 + 7 = 13\n\nAnswer: 13",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 49,
+        "completion_tokens": 44,
+        "total_tokens": 93
+      }
+    },
+    {
+      "question_id": "r12",
+      "token_level": 256,
+      "model": "claude-sonnet-4-5-20250929",
+      "prompt_hash": "297eb4381b90547ead2722f4e02a25a26e2f51924b5b9812b90d980ee48392a3",
+      "completion": "I need to calculate 4 * 12.\n\nI can break this down as:\n4 * 12 = 4 * (10 + 2)\n4 * 12 = (4 * 10) + (4 * 2)\n4 * 12 = 40 + 8\n4 * 12 = 48\n\nAnswer: 48",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 49,
+        "completion_tokens": 93,
+        "total_tokens": 142
+      }
+    },
+    {
+      "question_id": "r13",
+      "token_level": 256,
+      "model": "claude-sonnet-4-5-20250929",
+      "prompt_hash": "3ea1a0aab0f8da643fa1a7dafe78df6e2be82434dfc047a04c3992654ab3d0f4",
+      "completion": "I need to find 81 divided by 9.\n\nThis means: 81 \u00f7 9 = ?\n\nI can think of this as: \"How many times does 9 go into 81?\"\n\nLet me calculate:\n9 \u00d7 1 = 9\n9 \u00d7 2 = 18\n9 \u00d7 3 = 27\n9 \u00d7 4 = 36\n9 \u00d7 5 = 45\n9 \u00d7 6 = 54\n9 \u00d7 7 = 63\n9 \u00d7 8 = 72\n9 \u00d7 9 = 81\n\nSince 9 \u00d7 9 = 81, this means 81 \u00f7 9 = 9\n\nAnswer: 9",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 50,
+        "completion_tokens": 180,
+        "total_tokens": 230
+      }
+    },
+    {
+      "question_id": "r14",
+      "token_level": 256,
+      "model": "claude-sonnet-4-5-20250929",
+      "prompt_hash": "8ad52b70b74fa6f0cf65df783558fd0c82e648c378b4e7ff506fadffb03f907f",
+      "completion": "I need to find how many boxes of 8 cookies the baker fills.\n\n**Step 1: Calculate the total number of cookies baked**\nNumber of trays = 4\nCookies per tray = 12\nTotal cookies baked = 4 \u00d7 12 = 48\n\n**Step 2: Calculate how many cookies remain after the baker eats some**\nCookies eaten = 8\nCookies remaining = 48 - 8 = 40\n\n**Step 3: Calculate how many boxes can be filled**\nCookies per box = 8\nNumber of boxes = 40 \u00f7 8 = 5\n\nAnswer: 5",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 80,
+        "completion_tokens": 152,
+        "total_tokens": 232
+      }
+    },
+    {
+      "question_id": "r15",
+      "token_level": 256,
+      "model": "claude-sonnet-4-5-20250929",
+      "prompt_hash": "a568ecc84d2df93a2bbb673617c5b7fbb117fb4ae7d77751a2662556094d6079",
+      "completion": "I need to find how many apples each person gets after Tom gives some away and splits the rest.\n\n**Step 1: Calculate the total number of apples Tom has**\nTom has 3 bags of 8 apples each.\nTotal apples = 3 \u00d7 8\nTotal apples = 24\n\n**Step 2: Calculate how many apples remain after giving some to friends**\nTom gives away 4 apples to friends.\nRemaining apples = 24 - 4\nRemaining apples = 20\n\n**Step 3: Calculate how many apples each person gets**\nThe remaining apples are split equally among 4 people.\nApples per person = 20 \u00f7 4\nApples per person = 5\n\nAnswer: 5",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 84,
+        "completion_tokens": 182,
+        "total_tokens": 266
+      }
+    },
+    {
+      "question_id": "r16",
+      "token_level": 256,
+      "model": "claude-sonnet-4-5-20250929",
+      "prompt_hash": "984aa0ee4010c865fc698ba6154cd9162dbd62797b811f6e6734532a06b7edca",
+      "completion": "I need to find how far a car travels in 4 hours when it travels 60 miles in 1.5 hours at constant speed.\n\n**Step 1: Find the speed of the car**\n\nSpeed = Distance \u00f7 Time\n\nSpeed = 60 miles \u00f7 1.5 hours\n\nSpeed = 60 \u00f7 1.5\n\nSpeed = 60 \u00f7 (3/2)\n\nSpeed = 60 \u00d7 (2/3)\n\nSpeed = 120/3\n\nSpeed = 40 miles per hour\n\n**Step 2: Find the distance traveled in 4 hours**\n\nDistance = Speed \u00d7 Time\n\nDistance = 40 miles per hour \u00d7 4 hours\n\nDistance = 160 miles\n\nAnswer: 160",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 75,
+        "completion_tokens": 179,
+        "total_tokens": 254
+      }
+    },
+    {
+      "question_id": "r17",
+      "token_level": 256,
+      "model": "claude-sonnet-4-5-20250929",
+      "prompt_hash": "936d170bdf754b6c96fccbc3f48b19f562d580d86ee5f80fce175966c111d417",
+      "completion": "I need to find how many students are present when one eighth of all students are absent.\n\n**Step 1: Find the total number of students**\nNumber of classes = 3\nStudents per class = 24\nTotal students = 3 \u00d7 24\nTotal students = 72\n\n**Step 2: Find the number of absent students**\nFraction of students absent = 1/8\nNumber of absent students = 1/8 \u00d7 72\nNumber of absent students = 72/8\nNumber of absent students = 9\n\n**Step 3: Find the number of present students**\nNumber of present students = Total students - Absent students\nNumber of present students = 72 - 9\nNumber of present students = 63\n\nAnswer: 63",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 66,
+        "completion_tokens": 170,
+        "total_tokens": 236
+      }
+    },
+    {
+      "question_id": "r18",
+      "token_level": 256,
+      "model": "claude-sonnet-4-5-20250929",
+      "prompt_hash": "034b75b58eb3e94ab78378b3e3b9bf3772c452327e0ec216cada25b0ce4945ef",
+      "completion": "I need to find the sale price of a shirt that costs $40 with a 25% discount.\n\n**Step 1: Calculate the discount amount**\n\nDiscount percentage = 25%\nOriginal price = $40\n\nDiscount amount = Original price \u00d7 (Discount percentage \u00f7 100)\nDiscount amount = 40 \u00d7 (25 \u00f7 100)\nDiscount amount = 40 \u00d7 0.25\nDiscount amount = 10\n\n**Step 2: Calculate the sale price**\n\nSale price = Original price - Discount amount\nSale price = 40 - 10\nSale price = 30\n\nAnswer: 30",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 65,
+        "completion_tokens": 150,
+        "total_tokens": 215
+      }
+    },
+    {
+      "question_id": "r19",
+      "token_level": 256,
+      "model": "claude-sonnet-4-5-20250929",
+      "prompt_hash": "4918a9f307027692c1b6e09a100abcf1072662dc815e2de596bd3c227cac3d72",
+      "completion": "I need to find how many days 10 workers need to paint the same fence.\n\n**Step 1: Find the total amount of work.**\n\nThe total work can be measured in \"worker-days\" (the amount of work one worker does in one day).\n\nTotal work = Number of workers \u00d7 Number of days\nTotal work = 5 workers \u00d7 8 days\nTotal work = 40 worker-days\n\n**Step 2: Find how many days 10 workers need.**\n\nThe same total work must be completed by 10 workers.\n\nTotal work = Number of workers \u00d7 Number of days\n40 worker-days = 10 workers \u00d7 Number of days\n\nNumber of days = 40 worker-days \u00f7 10 workers\nNumber of days = 4 days\n\nAnswer: 4",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 71,
+        "completion_tokens": 182,
+        "total_tokens": 253
+      }
+    },
+    {
+      "question_id": "r20",
+      "token_level": 256,
+      "model": "claude-sonnet-4-5-20250929",
+      "prompt_hash": "92e3fc58ea7e7a365d64753159d7c5acbbd5f7beb7d84ebb127938e3749e1ea1",
+      "completion": "I need to find how many units are left in the warehouse after sales and restocking.\n\n**Starting inventory:**\n120 units\n\n**Sales over 3 days:**\nUnits sold per day = 15\nNumber of days = 3\nTotal units sold = 15 \u00d7 3\nTotal units sold = 45 units\n\n**Inventory after sales:**\nInventory after sales = Starting inventory - Total units sold\nInventory after sales = 120 - 45\nInventory after sales = 75 units\n\n**After restocking:**\nUnits restocked = 40\nFinal inventory = Inventory after sales + Units restocked\nFinal inventory = 75 + 40\nFinal inventory = 115 units\n\nAnswer: 115",
+      "score": 1.0,
+      "usage": {
+        "prompt_tokens": 77,
+        "completion_tokens": 163,
+        "total_tokens": 240
+      }
+    }
+  ],
+  "k": 1,
+  "temperature": 0.0,
+  "models": [
+    "claude-haiku-4-5-20251001",
+    "claude-sonnet-4-5-20250929"
+  ]
+}
